@@ -1,0 +1,66 @@
+﻿@model IDFWebApp.Models.Custom.identitykey
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>identitykey</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IdentityGuid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IdentityGuid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProviderName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProviderName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Unum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Unum)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UnumSync)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UnumSync)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UnumTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UnumTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.person.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.person.Email)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IdentityKeyID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

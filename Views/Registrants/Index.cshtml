@@ -1,0 +1,28 @@
+﻿@model IEnumerable<IDFWebApp.Models.Custom.Registrants>
+
+@section scripts {
+
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+}
+@{
+    ViewBag.Title = "Event Registrants";
+}
+
+<h2>Event Registrants</h2>
+@using (Ajax.BeginForm("Index", "Registrants", new AjaxOptions
+{
+    InsertionMode = InsertionMode.Replace,
+    HttpMethod = "GET",
+    UpdateTargetId = "bracketTable",
+    OnFailure = "searchFailed"
+},
+    htmlAttributes: new { @class = "form-inline" }))
+{
+    <div class="form-group">
+        @Html.DropDownList("Name", ViewBag.RaceEvent as SelectList)
+    </div>
+    <input type="submit" value="search" class="btn btn-default" />
+}
+
+<div id="bracketTable">
+</div>

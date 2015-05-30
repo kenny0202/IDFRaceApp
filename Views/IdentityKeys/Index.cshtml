@@ -1,0 +1,63 @@
+﻿@model IEnumerable<IDFWebApp.Models.Custom.identitykey>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IdentityGuid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProviderName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Unum)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UnumSync)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UnumTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.person.Email)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IdentityGuid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProviderName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Unum)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UnumSync)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UnumTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.person.Email)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IdentityKeyID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IdentityKeyID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IdentityKeyID })
+        </td>
+    </tr>
+}
+
+</table>

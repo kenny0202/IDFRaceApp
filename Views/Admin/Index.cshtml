@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+@{
+    if (Session["IsAdmin"] != null)
+    {
+        if ((int)Session["IsAdmin"] == 1)
+        {
+            <h1>User is admin</h1>
+        }
+        else
+        {
+            <h1>user is not admin</h1>
+        }
+
+    }
+}
+@{
+    if (Session["PersonID"] != null)
+    {
+        <h2>PersonID : @Session["PersonID"]</h2>
+    }
+}
+
+@{
+    if (Session["IsSuperUser"] != null)
+    {
+        <h2>SuperUSer : @Session["IsSuperUser"]</h2>
+    }
+}

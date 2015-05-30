@@ -1,0 +1,42 @@
+﻿@model IDFWebApp.Models.Custom.personorganizationrole
+
+@using (Html.BeginForm("RemoveUserRole", "Admin")){
+<div class="form-horizontal">
+    <hr />
+
+    @Html.Hidden("PersonID", Session["UserToAddRole"])
+
+    @Html.Hidden("OrganizationID", Session["UserToAddRole"])
+
+    @Html.AntiForgeryToken()
+
+    @if (ViewBag.RolesForUser != null)
+    { <h3>Current roles for user:</h3>
+        foreach (var item in (List<IDFWebApp.Models.Custom.personorganizationrole>)ViewBag.RolesForUser)
+        {
+            <p>@item.organizationroletype.Name</p>
+        }
+    }
+    else
+    {
+        <h3>User has no roles</h3>
+    }
+
+    <br/>
+    <h3>Choose a role to remove</h3>
+    <div class="form-group">
+        @Html.LabelFor(model => model.OrganizationRoleTypeID, "Role Type", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownList("OrganizationRoleTypeID", ViewBag.OrganizationRoleTypes as SelectList, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.OrganizationRoleTypeID, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Remove role" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+

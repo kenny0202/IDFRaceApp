@@ -1,0 +1,46 @@
+﻿@model IEnumerable<IDFWebApp.Models.Custom.personcomment>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Comment)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.commenttype.Code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.person.Email)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Comment)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.commenttype.Code)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.person.Email)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.PersonCommentID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.PersonCommentID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.PersonCommentID })
+            </td>
+        </tr>
+    }
+
+</table>

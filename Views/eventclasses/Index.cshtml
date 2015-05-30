@@ -1,0 +1,93 @@
+﻿@model IEnumerable<IDFWebApp.Models.Custom.eventclass>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.RacersPerHeat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RacersPerClass)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RepechagePlaces)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RepechageQualifiers)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PrimaryClassCost)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SecondaryClassCost)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UnumTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.buildbracketmethod.Code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.buildqualificationmethod.Code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.raceclass.Code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.raceevent.City)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.RacersPerHeat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RacersPerClass)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RepechagePlaces)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RepechageQualifiers)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PrimaryClassCost)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SecondaryClassCost)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UnumTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.buildbracketmethod.Code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.buildqualificationmethod.Code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.raceclass.Code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.raceevent.City)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.EventClassID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.EventClassID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.EventClassID })
+        </td>
+    </tr>
+}
+
+</table>

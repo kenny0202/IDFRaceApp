@@ -1,0 +1,101 @@
+﻿@model IEnumerable<IDFWebApp.Models.Custom.preference>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+@{
+    if (Session["ErrorMsg"] != null)
+    {
+        <div class="bg-danger">
+            <p>@Session["ErrorMsg"]</p>
+        </div>
+    }
+}
+
+<h1>personId = @Session["PersonID"]</h1>
+
+@if (Session["ErrorMessage"] != null)
+{
+    <h2>message @Session["ErrorMessage"]</h2>
+}
+
+@if (Session["NoPref"] != null)
+{
+    if ((int)Session["NoPref"] == 0)
+    {
+        <p>Session @Session["NoPref"]</p>
+        <p>@Html.ActionLink("Set up preferences", "Create", "Preference")</p>
+    }
+}
+
+@{
+    if (Session["Another"] != null)
+    {
+        <h2>another</h2>
+        foreach (var item in (List<string>)Session["ValuesList"])
+        {
+            <p>@item</p>
+        }
+        <h2>valeus</h2>
+        foreach (var item in (List<string>)Session["Another"])
+        {
+            <p>@item</p>
+        }
+    }
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Parameters)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Unum)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UnumSync)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UnumTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.organization.Code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.person.Email)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Parameters)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Unum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnumSync)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnumTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.organization.Code)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.person.Email)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.PreferenceID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.PreferenceID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.PreferenceID })
+            </td>
+        </tr>
+    }
+</table>

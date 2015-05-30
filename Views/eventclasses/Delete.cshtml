@@ -1,0 +1,112 @@
+﻿@model IDFWebApp.Models.Custom.eventclass
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>eventclass</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.RacersPerHeat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RacersPerHeat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RacersPerClass)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RacersPerClass)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RepechagePlaces)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RepechagePlaces)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RepechageQualifiers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RepechageQualifiers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PrimaryClassCost)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PrimaryClassCost)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SecondaryClassCost)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SecondaryClassCost)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UnumTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UnumTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.buildbracketmethod.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.buildbracketmethod.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.buildqualificationmethod.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.buildqualificationmethod.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.raceclass.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.raceclass.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.raceevent.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.raceevent.City)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

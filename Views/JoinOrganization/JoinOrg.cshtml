@@ -1,0 +1,61 @@
+﻿@section scripts {
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+}
+
+@{
+    ViewBag.Title = "Join an Organization";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>Join an Organization</h2>
+
+@{
+    if (TempData["Success"] != null)
+    {
+        <div class="bg-success padding-one">
+            <p>@TempData["Success"]</p>
+        </div>
+    }
+}
+
+@{
+    if (TempData["Error"] != null)
+    {
+        <div class="bg-danger padding-one">
+            <p>@TempData["Error"]</p>
+        </div>
+    }
+}
+
+<br />
+@using (Ajax.BeginForm("JoinOrg", "JoinOrganization", null,
+    new AjaxOptions
+    {
+        InsertionMode = InsertionMode.Replace,
+        HttpMethod = "GET",
+        UpdateTargetId = "rolesDiv",
+        OnFailure = "searchFailed"
+    },
+    htmlAttributes: new { @class = "form-horizontal" }))
+{ 
+
+    <h4>Please select the organization to join.</h4>
+    <div class="form-group">
+        @Html.Label("Organization", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-sm-10">
+            @Html.DropDownList("OrganizationID", ViewBag.Organizations as SelectList, new { htmlAttributes = new { @class = "form-control" } })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <input type="submit" value="Submit" class="btn btn-default" />
+        </div>
+    </div>
+
+}
+    
+<div id="rolesDiv">
+</div>
+    

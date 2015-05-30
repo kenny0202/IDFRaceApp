@@ -1,0 +1,107 @@
+﻿@model IDFWebApp.Models.Custom.eventclass
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>eventclass</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.RacersPerHeat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RacersPerHeat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RacersPerClass)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RacersPerClass)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RepechagePlaces)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RepechagePlaces)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RepechageQualifiers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RepechageQualifiers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PrimaryClassCost)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PrimaryClassCost)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SecondaryClassCost)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SecondaryClassCost)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UnumTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UnumTime)
+        </dd>
+
+        <dt>
+            Bracket Method
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.buildbracketmethod.Name)
+        </dd>
+
+        <dt>
+            Qualification Method
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.buildqualificationmethod.Name)
+        </dd>
+
+        <dt>
+            Race Class
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.raceclass.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.raceevent.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.raceevent.City)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.EventClassID }) |
+    @Html.ActionLink("Go Back", "Details", "RaceEvent", new { id = Convert.ToInt32(Session["id"]) }, null)
+</p>

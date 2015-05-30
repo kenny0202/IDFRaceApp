@@ -1,0 +1,66 @@
+﻿@model IDFWebApp.Models.Custom.account
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>account</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Account Name
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BillingNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BillingNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Parameters)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Parameters)
+        </dd>
+
+        <dt>
+            Account Type
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.accounttype.Name)
+        </dd>
+
+        <dt>
+            Currency
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.currency.Name)
+        </dd>
+
+        <dt>
+            Organization
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.organization.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.AccountID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

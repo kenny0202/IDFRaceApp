@@ -1,0 +1,16 @@
+﻿@model IEnumerable<IDFWebApp.Models.Custom.Registrants>
+<table style="width:100%">
+    <tr>
+        <th>Last Name</th>
+        <th>First Name</th>
+        <th>Role Type</th>
+    </tr>
+    @foreach (var person in Model)
+    {
+        <tr>
+            <td>@person.LastName</td>
+            <td>@person.FirstName</td>
+            <td>@person.RoleType</td>
+        </tr>
+    }
+</table>

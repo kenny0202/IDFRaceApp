@@ -1,0 +1,98 @@
+﻿@model IDFWebApp.Models.Custom.organizationroletype
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.UsageType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UsageType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CompetitorLevel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CompetitorLevel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sequence)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sequence)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Parameters)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Parameters)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DuesAmount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DuesAmount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RenewalType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RenewalType)
+        </dd>
+
+        <dt>
+            Currency
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.currency.Name)
+        </dd>
+
+        <dt>
+            Organization
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.organization.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.OrganizationRoleTypeID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

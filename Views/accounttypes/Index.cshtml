@@ -1,0 +1,69 @@
+﻿@model IEnumerable<IDFWebApp.Models.Custom.accounttype>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Sequence)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Parameters)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Unum)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UnumSync)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UnumTime)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sequence)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Parameters)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Unum)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UnumSync)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UnumTime)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.AccountTypeID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.AccountTypeID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.AccountTypeID })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - International Downhill Association - Race Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @RenderSection("styles", required: false)
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid align-center">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                @Html.ActionLink("IDF - Race App", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Event Registrants", "Index", "Registrants")</li>
+
+                    @if (Session["PersonID"] != null)
+                    {
+                        <li>@Html.ActionLink("Join Organization", "JoinOrg", "JoinOrganization")</li>
+                    }
+                    
+                    @{
+                        if (User.IsInRole("Admin") || User.IsInRole("SuperUser"))
+                        {
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Manage Organizations<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li>@Html.ActionLink("Organization Data", "Index", "Organizations")</li>
+                                    <li>@Html.ActionLink("Organization Roles", "Index", "Organizationroletypes")</li>
+                                    <li>@Html.ActionLink("Account Payment Info", "Index", "Accounts")</li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Race Events<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li>@Html.ActionLink("All race events", "Index", "RaceEvent")</li>
+                                    <li>@Html.ActionLink("New race", "Create", "RaceEvent")</li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+
+                                    @if ((IDFWebApp.Models.Custom.preference)Session["AdminPref"] == null)
+                                    {
+                                        <li>@Html.ActionLink("Preferences", "Create", "Preference")</li>
+                                    }
+                                    else
+                                    {
+                                        <li>GO EDIT PREFERENCE</li>
+                                    }
+                                    <li>@Html.ActionLink("Find user", "Find", "Person")</li>
+                                </ul>
+                            </li>
+                        }
+                    }
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content mainContent">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - International Downhill Association - Race Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/bootstrap")
+</body>
+</html>

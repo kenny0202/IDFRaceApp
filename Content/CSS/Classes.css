@@ -1,0 +1,20 @@
+﻿.padding-one {
+    padding: 1em;
+}
+.padding-half {
+    padding: 0.5em;
+}
+.txt-big {
+    font-size: 2em;
+}
+.align-center{
+    width: 95%;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+/* overwrite boostrap for nav bar */
+.navbar-inverse .navbar-nav > li > a {
+    font-size:1.2em;
+    color: #ffffff;
+}

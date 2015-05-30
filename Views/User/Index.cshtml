@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Manage Users";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Enable or Disable Users</h1>
+<div class="spacerBody">
+
+    <h3>Disabled Users</h3>
+    @ViewBag.ResultMessage
+
+    <table>
+        @foreach (string s in ViewBag.Lock)
+        {
+
+            <tr>
+                <td>
+                    @s
+                </td>
+                <td>
+                    <span onclick=" return confirm('Are you sure you want to enable user?') ">
+                        <a href="/User/Enable?UserName=@s" class="delLink">Enable</a>
+                    </span>
+                </td>
+            </tr>
+        }
+    </table>
+    <br />
+
+    <h3>Enabled Users</h3>
+    @ViewBag.ResultMessage
+    <table>
+        @foreach (string s in ViewBag.Unlock)
+        {
+            <tr>
+                <td>
+                    @s
+                </td>
+                <td>
+                    <span onclick=" return confirm('Are you sure you want to disable user?') ">
+                        <a href="/User/Disable?UserName=@s" class="delLink">Disable</a>
+                    </span>
+                </td>
+            </tr>
+        }
+    </table>
+    <br />
+
+</div>

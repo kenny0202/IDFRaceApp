@@ -1,0 +1,98 @@
+﻿@model IDFWebApp.Models.Custom.personorganizationrole
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>personorganizationrole</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CompetitorLevel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CompetitorLevel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MemberNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MemberNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AnnualDuesPaid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AnnualDuesPaid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExpiryDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpiryDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AccountNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AccountNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TransactionNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TransactionNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AutoRenewSubscription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AutoRenewSubscription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PriorityStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PriorityStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.organizationroletype.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.organizationroletype.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.person.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.person.Email)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PersonOrganizationRoleID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

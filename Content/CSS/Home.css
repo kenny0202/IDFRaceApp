@@ -1,0 +1,11 @@
+﻿.adminOptions {
+    margin-bottom: 5em;
+    padding: 1.5em;
+}
+.adminOptions > .col-xs-12 {
+    margin: 1.5em;
+}
+
+.adminOptions  .col-md-6 {
+    padding-bottom: 1.5em;
+}

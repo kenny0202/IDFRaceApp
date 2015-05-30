@@ -1,0 +1,70 @@
+﻿@model IEnumerable<IDFWebApp.Models.Custom.brackettemplate>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.BracketSize)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BracketRiders)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BracketNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BracketSeed)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Unum)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UnumSync)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UnumTime)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.BracketSize)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BracketRiders)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BracketNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BracketSeed)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Unum)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UnumSync)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UnumTime)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.BracketTemplateID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.BracketTemplateID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.BracketTemplateID })
+        </td>
+    </tr>
+}
+
+</table>

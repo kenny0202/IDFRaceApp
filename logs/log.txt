@@ -1,0 +1,1912 @@
+FATAL 2015-04-30 09:14:43,133 13540ms ErrorController        HttpError          - Error System.DivideByZeroException: Attempted to divide by zero.
+   at IDFWebApp.Controllers.accounttypesController.Edit(accounttype accounttype) in c:\TFS\COMP4900\IDFWebApp\Controllers\accounttypesController.cs:line 89
+  
+FATAL 2015-04-30 09:17:40,454 29063ms ErrorController        HttpError          - Error System.Data.Entity.Infrastructure.DbUpdateConcurrencyException: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=472540 for information on understanding and handling optimistic concurrency exceptions. ---> System.Data.Entity.Core.OptimisticConcurrencyException: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=472540 for information on understanding and handling optimistic concurrency exceptions.
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.ValidateRowsAffected(Int64 rowsAffected, UpdateCommand source)
+  
+FATAL 2015-04-30 09:18:27,148 20499ms ErrorController        HttpError          - Error System.Data.Entity.Infrastructure.DbUpdateConcurrencyException: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=472540 for information on understanding and handling optimistic concurrency exceptions. ---> System.Data.Entity.Core.OptimisticConcurrencyException: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=472540 for information on understanding and handling optimistic concurrency exceptions.
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.ValidateRowsAffected(Int64 rowsAffected, UpdateCommand source)
+  
+FATAL 2015-04-30 09:21:29,346 11641ms ErrorController        HttpError          - Error System.Data.Entity.Infrastructure.DbUpdateConcurrencyException: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=472540 for information on understanding and handling optimistic concurrency exceptions. ---> System.Data.Entity.Core.OptimisticConcurrencyException: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=472540 for information on understanding and handling optimistic concurrency exceptions.
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.ValidateRowsAffected(Int64 rowsAffected, UpdateCommand source)
+  
+FATAL 2015-04-30 09:23:00,305 13937ms ErrorController        HttpError          - Error System.Data.Entity.Infrastructure.DbUpdateConcurrencyException: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=472540 for information on understanding and handling optimistic concurrency exceptions. ---> System.Data.Entity.Core.OptimisticConcurrencyException: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=472540 for information on understanding and handling optimistic concurrency exceptions.
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.ValidateRowsAffected(Int64 rowsAffected, UpdateCommand source)
+  
+FATAL 2015-04-30 14:57:06,559 55559ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.ErrorController.HttpError() in c:\TFS\COMP4900\IDFWebApp\Controllers\ErrorController.cs:line 87
+  
+FATAL 2015-04-30 14:59:14,655 104695ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.ErrorController.HttpError() in c:\TFS\COMP4900\IDFWebApp\Controllers\ErrorController.cs:line 87
+  
+FATAL 2015-04-30 17:03:27,143 27947ms ErrorController        HttpError          - Error System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Unknown column 'Extent1.Email' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-04-30 17:58:32,363 20722ms ErrorController        HttpError          - Error System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Table 'aspnetdb.aspnetusers' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-04-30 18:04:50,237 19191ms ErrorController        HttpError          - Error System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Table 'aspnetdb.aspnetusers' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-04-30 18:10:59,637 39461ms ErrorController        HttpError          - Error System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Table 'aspnetdb.aspnetusers' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-04-30 20:05:51,037 20984ms ErrorController        HttpError          - Error System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Unknown column 'Extent1.Id' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-04-30 20:21:19,438 33890ms ErrorController        HttpError          - Error System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Unknown column 'Extent1.EmailConfirmed' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-04-30 20:23:31,455 165908ms ErrorController        HttpError          - Error System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Unknown column 'Extent1.EmailConfirmed' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-04-30 20:26:07,421 18086ms ErrorController        HttpError          - Error System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Unknown column 'Extent1.PhoneNumber' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-04-30 20:27:31,135 34445ms ErrorController        HttpError          - Error System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Unknown column 'Extent1.PhoneNumberConfirmed' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-04-30 20:28:40,616 19452ms ErrorController        HttpError          - Error System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Unknown column 'Extent1.TwoFactorEnabled' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-04-30 20:30:01,609 19661ms ErrorController        HttpError          - Error System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Unknown column 'Extent1.LockoutEndDateUtc' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-04-30 20:31:13,937 15272ms ErrorController        HttpError          - Error System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Unknown column 'Extent1.LockoutEnabled' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-04-30 20:32:20,909 15006ms ErrorController        HttpError          - Error System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Unknown column 'Extent1.AccessFailedCount' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-04-30 20:33:32,758 15364ms ErrorController        HttpError          - Error System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Unknown column 'Extent1.AccessFailedCount' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-04-30 20:34:21,279 14387ms ErrorController        HttpError          - Error System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Field 'Discriminator' doesn't have a default value
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-04-30 20:36:40,111 14369ms ErrorController        HttpError          - Error System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Field 'Discriminator' doesn't have a default value
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-04-30 20:37:59,681 14665ms ErrorController        HttpError          - Error System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Field 'Discriminator' doesn't have a default value
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-04-30 21:08:46,229 27407ms ErrorController        HttpError          - Error System.InvalidOperationException: The model backing the 'ApplicationDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+  
+FATAL 2015-04-30 21:10:59,785 13457ms ErrorController        HttpError          - Error System.InvalidOperationException: The model backing the 'ApplicationDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+  
+FATAL 2015-04-30 21:16:03,089 12655ms ErrorController        HttpError          - Error System.InvalidOperationException: The model backing the 'ApplicationDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+  
+FATAL 2015-04-30 21:21:39,883 10660ms ErrorController        HttpError          - Error System.InvalidOperationException: The model backing the 'ApplicationDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+  
+FATAL 2015-04-30 21:26:49,564 13766ms ErrorController        HttpError          - Error System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Unknown column 'Extent1.Email' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-05-01 06:28:06,133 32925ms ErrorController        HttpError          - Error MySql.Data.MySqlClient.MySqlException (0x80004005): Specified key was too long; max key length is 767 bytes
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-05-01 11:44:43,692 14616ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\RaceEvent\Index.cshtml(16): error CS1061: 'IDFWebApp.Models.raceevent' does not contain a definition for 'City' and no extension method 'City' accepting a first argument of type 'IDFWebApp.Models.raceevent' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-01 11:48:22,103  5631ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): c:\Users\rafael rozon\AppData\Local\Temp\Temporary ASP.NET Files\root\3ee09511\affca03a\App_Web_index.cshtml.39c486e2.dzjn2zdi.0.cs(31): error CS0234: The type or namespace name 'raceevent' does not exist in the namespace 'IDFWebApp.Models' (are you missing an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-01 11:49:47,074  6866ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): c:\Users\rafael rozon\AppData\Local\Temp\Temporary ASP.NET Files\root\3ee09511\affca03a\App_Web_index.cshtml.39c486e2.tajqmnah.0.cs(31): error CS0234: The type or namespace name 'raceevent' does not exist in the namespace 'IDFWebApp.Models' (are you missing an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-01 11:49:54,454 14245ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): c:\Users\rafael rozon\AppData\Local\Temp\Temporary ASP.NET Files\root\3ee09511\affca03a\App_Web_create.cshtml.39c486e2.9j4ttyvm.0.cs(31): error CS0234: The type or namespace name 'raceevent' does not exist in the namespace 'IDFWebApp.Models' (are you missing an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-01 11:50:57,617  6613ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): c:\Users\rafael rozon\AppData\Local\Temp\Temporary ASP.NET Files\root\3ee09511\affca03a\App_Web_create.cshtml.39c486e2.cpsdh_9p.0.cs(31): error CS0234: The type or namespace name 'raceevent' does not exist in the namespace 'IDFWebApp.Models' (are you missing an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-01 11:51:10,372 19368ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): c:\Users\rafael rozon\AppData\Local\Temp\Temporary ASP.NET Files\root\3ee09511\affca03a\App_Web_index.cshtml.39c486e2.y3pni5gy.0.cs(31): error CS0234: The type or namespace name 'raceevent' does not exist in the namespace 'IDFWebApp.Models' (are you missing an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-01 11:53:41,776 14641ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): c:\Users\rafael rozon\AppData\Local\Temp\Temporary ASP.NET Files\root\3ee09511\affca03a\App_Web_index.cshtml.c8cb491a.ia6gehec.0.cs(31): error CS0234: The type or namespace name 'Custom' does not exist in the namespace 'IDFWebApp.Models' (are you missing an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-01 14:01:03,971 25327ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Data.Entity.DynamicProxies.raceevent_6B32C2ACA35A853CED00F7C9CD1BE8F639B48B033CCF419BD3D60814D483FF37', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[IDFWebApp.Models.Custom.raceevent]'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-01 14:01:06,205 27561ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Data.Entity.DynamicProxies.raceevent_6B32C2ACA35A853CED00F7C9CD1BE8F639B48B033CCF419BD3D60814D483FF37', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[IDFWebApp.Models.Custom.raceevent]'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-01 14:02:44,797 126154ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Data.Entity.DynamicProxies.raceevent_6B32C2ACA35A853CED00F7C9CD1BE8F639B48B033CCF419BD3D60814D483FF37', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[IDFWebApp.Models.Custom.raceevent]'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-01 14:04:03,361 204718ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Data.Entity.DynamicProxies.raceevent_6B32C2ACA35A853CED00F7C9CD1BE8F639B48B033CCF419BD3D60814D483FF37', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[IDFWebApp.Models.Custom.raceevent]'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-01 14:04:10,116 211472ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Data.Entity.DynamicProxies.raceevent_6B32C2ACA35A853CED00F7C9CD1BE8F639B48B033CCF419BD3D60814D483FF37', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[IDFWebApp.Models.Custom.raceevent]'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-01 14:06:01,392  9579ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Data.Entity.DynamicProxies.raceevent_6B32C2ACA35A853CED00F7C9CD1BE8F639B48B033CCF419BD3D60814D483FF37', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[IDFWebApp.Models.Custom.raceevent]'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-01 14:13:27,851 12587ms ErrorController        HttpError          - Error System.Reflection.AmbiguousMatchException: The current request for action 'Create' on controller type 'EventClassController' is ambiguous between the following action methods:
+System.Web.Mvc.ActionResult Create() on type IDFWebApp.Controllers.Custom.EventClassController
+System.Web.Mvc.ActionResult Create(Int32) on type IDFWebApp.Controllers.Custom.EventClassController
+   at System.Web.Mvc.ActionMethodSelectorBase.FindActionMethod(ControllerContext controllerContext, String actionName)
+  
+FATAL 2015-05-01 14:14:43,188  1941ms ErrorController        HttpError          - Error System.Reflection.AmbiguousMatchException: The current request for action 'Create' on controller type 'EventClassController' is ambiguous between the following action methods:
+System.Web.Mvc.ActionResult Create() on type IDFWebApp.Controllers.Custom.EventClassController
+System.Web.Mvc.ActionResult Create(Int32) on type IDFWebApp.Controllers.Custom.EventClassController
+   at System.Web.Mvc.ActionMethodSelectorBase.FindActionMethod(ControllerContext controllerContext, String actionName)
+  
+FATAL 2015-05-01 14:14:59,059 17811ms ErrorController        HttpError          - Error System.Reflection.AmbiguousMatchException: The current request for action 'Create' on controller type 'EventClassController' is ambiguous between the following action methods:
+System.Web.Mvc.ActionResult Create() on type IDFWebApp.Controllers.Custom.EventClassController
+System.Web.Mvc.ActionResult Create(Int32) on type IDFWebApp.Controllers.Custom.EventClassController
+   at System.Web.Mvc.ActionMethodSelectorBase.FindActionMethod(ControllerContext controllerContext, String actionName)
+  
+FATAL 2015-05-01 14:15:25,604  5872ms ErrorController        HttpError          - Error System.Reflection.AmbiguousMatchException: The current request for action 'Create' on controller type 'EventClassController' is ambiguous between the following action methods:
+System.Web.Mvc.ActionResult Create() on type IDFWebApp.Controllers.Custom.EventClassController
+System.Web.Mvc.ActionResult Create(Int32) on type IDFWebApp.Controllers.Custom.EventClassController
+   at System.Web.Mvc.ActionMethodSelectorBase.FindActionMethod(ControllerContext controllerContext, String actionName)
+  
+FATAL 2015-05-01 14:15:30,431 10700ms ErrorController        HttpError          - Error System.Reflection.AmbiguousMatchException: The current request for action 'Create' on controller type 'EventClassController' is ambiguous between the following action methods:
+System.Web.Mvc.ActionResult Create() on type IDFWebApp.Controllers.Custom.EventClassController
+System.Web.Mvc.ActionResult Create(Int32) on type IDFWebApp.Controllers.Custom.EventClassController
+   at System.Web.Mvc.ActionMethodSelectorBase.FindActionMethod(ControllerContext controllerContext, String actionName)
+  
+FATAL 2015-05-01 14:18:59,516  3277ms ErrorController        HttpError          - Error System.Reflection.AmbiguousMatchException: The current request for action 'Create' on controller type 'EventClassController' is ambiguous between the following action methods:
+System.Web.Mvc.ActionResult Create() on type IDFWebApp.Controllers.Custom.EventClassController
+System.Web.Mvc.ActionResult Create(Int32) on type IDFWebApp.Controllers.Custom.EventClassController
+   at System.Web.Mvc.ActionMethodSelectorBase.FindActionMethod(ControllerContext controllerContext, String actionName)
+  
+FATAL 2015-05-01 14:19:15,228 18990ms ErrorController        HttpError          - Error System.Reflection.AmbiguousMatchException: The current request for action 'Create' on controller type 'EventClassController' is ambiguous between the following action methods:
+System.Web.Mvc.ActionResult Create() on type IDFWebApp.Controllers.Custom.EventClassController
+System.Web.Mvc.ActionResult Create(Int32) on type IDFWebApp.Controllers.Custom.EventClassController
+   at System.Web.Mvc.ActionMethodSelectorBase.FindActionMethod(ControllerContext controllerContext, String actionName)
+  
+FATAL 2015-05-01 14:19:18,273 22034ms ErrorController        HttpError          - Error System.Reflection.AmbiguousMatchException: The current request for action 'Create' on controller type 'EventClassController' is ambiguous between the following action methods:
+System.Web.Mvc.ActionResult Create() on type IDFWebApp.Controllers.Custom.EventClassController
+System.Web.Mvc.ActionResult Create(Int32) on type IDFWebApp.Controllers.Custom.EventClassController
+   at System.Web.Mvc.ActionMethodSelectorBase.FindActionMethod(ControllerContext controllerContext, String actionName)
+  
+FATAL 2015-05-01 14:19:32,851 36612ms ErrorController        HttpError          - Error System.Reflection.AmbiguousMatchException: The current request for action 'Create' on controller type 'EventClassController' is ambiguous between the following action methods:
+System.Web.Mvc.ActionResult Create() on type IDFWebApp.Controllers.Custom.EventClassController
+System.Web.Mvc.ActionResult Create(Int32) on type IDFWebApp.Controllers.Custom.EventClassController
+   at System.Web.Mvc.ActionMethodSelectorBase.FindActionMethod(ControllerContext controllerContext, String actionName)
+  
+FATAL 2015-05-01 14:22:30,794 19086ms ErrorController        HttpError          - Error System.Reflection.AmbiguousMatchException: The current request for action 'Create' on controller type 'EventClassController' is ambiguous between the following action methods:
+System.Web.Mvc.ActionResult Create() on type IDFWebApp.Controllers.Custom.EventClassController
+System.Web.Mvc.ActionResult Create(Int32) on type IDFWebApp.Controllers.Custom.EventClassController
+   at System.Web.Mvc.ActionMethodSelectorBase.FindActionMethod(ControllerContext controllerContext, String actionName)
+  
+FATAL 2015-05-01 14:56:58,793 20014ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'Index' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/EventClass/Index.aspx
+~/Views/EventClass/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/EventClass/Index.cshtml
+~/Views/EventClass/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-01 15:04:51,539 31763ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): The following sections have been defined but have not been rendered for the layout page "~/Views/Shared/_Layout.cshtml": "styles".
+   at System.Web.WebPages.WebPageBase.VerifyRenderedBodyOrSections()
+  
+FATAL 2015-05-01 15:07:24,497 184721ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'Edit' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/EventClass/Edit.aspx
+~/Views/EventClass/Edit.ascx
+~/Views/Shared/Edit.aspx
+~/Views/Shared/Edit.ascx
+~/Views/EventClass/Edit.cshtml
+~/Views/EventClass/Edit.vbhtml
+~/Views/Shared/Edit.cshtml
+~/Views/Shared/Edit.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-01 15:07:28,270 188494ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'Details' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/EventClass/Details.aspx
+~/Views/EventClass/Details.ascx
+~/Views/Shared/Details.aspx
+~/Views/Shared/Details.ascx
+~/Views/EventClass/Details.cshtml
+~/Views/EventClass/Details.vbhtml
+~/Views/Shared/Details.cshtml
+~/Views/Shared/Details.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-01 16:05:35,213  8952ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\EventClass\Create.cshtml(22): error CS1660: Cannot convert lambda expression to type 'object' because it is not a delegate type
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+  
+FATAL 2015-05-01 16:05:35,213  8952ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\EventClass\Create.cshtml(22): error CS1660: Cannot convert lambda expression to type 'object' because it is not a delegate type
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+  
+FATAL 2015-05-01 16:05:50,600 24339ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\EventClass\Create.cshtml(22): error CS1660: Cannot convert lambda expression to type 'object' because it is not a delegate type
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-01 16:15:22,184  9849ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\EventClass\Create.cshtml(22): error CS0103: The name 'RacersPerHeat' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-01 16:21:02,957  4672ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\EventClass\Create.cshtml(22): error CS0411: The type arguments for method 'System.Web.Mvc.Html.InputExtensions.RadioButtonFor<TModel,TProperty>(System.Web.Mvc.HtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel,TProperty>>, object, object)' cannot be inferred from the usage. Try specifying the type arguments explicitly.
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-01 16:23:20,429  4684ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\EventClass\Create.cshtml(22): error CS0411: The type arguments for method 'System.Web.Mvc.Html.InputExtensions.RadioButtonFor<TModel,TProperty>(System.Web.Mvc.HtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel,TProperty>>, object, object)' cannot be inferred from the usage. Try specifying the type arguments explicitly.
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-01 16:23:54,593 38848ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\EventClass\Create.cshtml(22): error CS0411: The type arguments for method 'System.Web.Mvc.Html.InputExtensions.RadioButtonFor<TModel,TProperty>(System.Web.Mvc.HtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel,TProperty>>, object, object)' cannot be inferred from the usage. Try specifying the type arguments explicitly.
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-01 16:30:26,894 27159ms ErrorController        HttpError          - Error System.InvalidOperationException: There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'RacersPerClass'.
+   at System.Web.Mvc.Html.SelectExtensions.GetSelectData(HtmlHelper htmlHelper, String name)
+  
+FATAL 2015-05-01 18:24:09,515  3620ms ErrorController        HttpError          - Error System.Web.HttpParseException (0x80004005): The using block is missing a closing "}" character.  Make sure you have a matching "}" character for all the "{" characters within this block, and that none of the "}" characters are being interpreted as markup.
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+  
+FATAL 2015-05-01 18:24:11,186  5290ms ErrorController        HttpError          - Error System.Web.HttpParseException (0x80004005): The using block is missing a closing "}" character.  Make sure you have a matching "}" character for all the "{" characters within this block, and that none of the "}" characters are being interpreted as markup.
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+  
+FATAL 2015-05-01 20:11:26,368 160688ms ErrorController        HttpError          - Error System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Cannot add or update a child row: a foreign key constraint fails ("race"."eventclass", CONSTRAINT "FK_ClassEvent_Event" FOREIGN KEY ("RaceEventID") REFERENCES "raceevent" ("RaceEventID") ON DELETE NO ACTION ON UPDATE NO ACTION)
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-05-01 20:11:49,831  6957ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'Index' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/EventClass/Index.aspx
+~/Views/EventClass/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/EventClass/Index.cshtml
+~/Views/EventClass/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-01 20:13:49,412 126537ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\EventClass\Create.cshtml(37): error CS0136: A local variable named 'Model' cannot be declared in this scope because it would give a different meaning to 'Model', which is already used in a 'parent or current' scope to denote something else
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-01 20:13:52,389 129514ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\EventClass\Create.cshtml(37): error CS0136: A local variable named 'Model' cannot be declared in this scope because it would give a different meaning to 'Model', which is already used in a 'parent or current' scope to denote something else
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+  
+FATAL 2015-05-01 20:43:24,721 11674ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'Index' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/EventClass/Index.aspx
+~/Views/EventClass/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/EventClass/Index.cshtml
+~/Views/EventClass/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-01 20:43:28,313 15266ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'Index' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/EventClass/Index.aspx
+~/Views/EventClass/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/EventClass/Index.cshtml
+~/Views/EventClass/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-01 20:43:31,582 18535ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'Index' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/EventClass/Index.aspx
+~/Views/EventClass/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/EventClass/Index.cshtml
+~/Views/EventClass/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-02 13:46:51,187 59221ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'Index' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/EventClass/Index.aspx
+~/Views/EventClass/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/EventClass/Index.cshtml
+~/Views/EventClass/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-02 13:58:03,160 42352ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'Index' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/EventClass/Index.aspx
+~/Views/EventClass/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/EventClass/Index.cshtml
+~/Views/EventClass/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-02 14:03:18,765 77677ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'Edit' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/EventClass/Edit.aspx
+~/Views/EventClass/Edit.ascx
+~/Views/Shared/Edit.aspx
+~/Views/Shared/Edit.ascx
+~/Views/EventClass/Edit.cshtml
+~/Views/EventClass/Edit.vbhtml
+~/Views/Shared/Edit.cshtml
+~/Views/Shared/Edit.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-02 16:24:28,069 27187ms ErrorController        HttpError          - Error System.InvalidOperationException: The view '_PersonPartialTable' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Person/_PersonPartialTable.aspx
+~/Views/Person/_PersonPartialTable.ascx
+~/Views/Shared/_PersonPartialTable.aspx
+~/Views/Shared/_PersonPartialTable.ascx
+~/Views/Person/_PersonPartialTable.cshtml
+~/Views/Person/_PersonPartialTable.vbhtml
+~/Views/Shared/_PersonPartialTable.cshtml
+~/Views/Shared/_PersonPartialTable.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-02 16:25:39,462 15577ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[IDFWebApp.Models.Custom.person]', but this dictionary requires a model item of type 'IDFWebApp.Models.Custom.person'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-02 17:30:55,072 10455ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'CountryID' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Find(System.String, Int32)' in 'IDFWebApp.Controllers.Custom.PersonController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-02 17:33:48,061 135214ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'CountryID' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult Find(System.String, Int32)' in 'IDFWebApp.Controllers.Custom.PersonController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-03 11:51:21,947  1583ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'choice' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult FindTemplate(Int32)' in 'IDFWebApp.Controllers.Custom.BracketTemplateController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-03 11:51:39,571 19207ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'choice' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult FindTemplate(Int32)' in 'IDFWebApp.Controllers.Custom.BracketTemplateController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-03 12:53:58,101 10942ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\BracketTemplate\FindTemplate.cshtml(34): error CS1973: 'System.Web.Mvc.HtmlHelper<dynamic>' has no applicable method named 'Partial' but appears to have an extension method by that name. Extension methods cannot be dynamically dispatched. Consider casting the dynamic arguments or calling the extension method without the extension method syntax.
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-03 15:39:33,538 30406ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-03 15:41:08,665 16682ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-03 15:42:28,958 19587ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-03 15:42:32,002 22631ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-03 16:03:33,335 31446ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-03 16:04:56,682 11812ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-03 16:06:03,293 22677ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-03 16:06:33,002 52387ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-03 16:07:52,929 13097ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-03 16:15:13,069 13902ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-03 16:17:06,493 11089ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-03 16:18:33,680 23508ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-03 16:19:56,166 105994ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-03 16:24:35,773 18253ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-03 16:26:04,149 28428ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-03 16:27:42,375 46851ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-03 16:27:53,693 58169ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-03 16:27:59,170 63646ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-03 16:50:46,351 23204ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-03 17:16:30,166 36333ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-03 17:17:35,093 39888ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-03 17:19:16,824 17378ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-03 17:35:12,475 45368ms ErrorController        HttpError          - Error System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+  
+FATAL 2015-05-04 10:14:07,150 81657ms ErrorController        HttpError          - Error System.InvalidCastException: Unable to cast object of type 'System.Data.Entity.Infrastructure.DbQuery`1[IDFWebApp.Models.Custom.preference]' to type 'IDFWebApp.Models.Custom.preference'.
+   at IDFWebApp.Controllers.AccountController.getUserPreference() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 106
+  
+FATAL 2015-05-04 10:16:21,554 60471ms ErrorController        HttpError          - Error System.InvalidCastException: Unable to cast object of type 'System.Data.Entity.Infrastructure.DbQuery`1[IDFWebApp.Models.Custom.preference]' to type 'IDFWebApp.Models.Custom.preference'.
+   at IDFWebApp.Controllers.AccountController.getUserPreference() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 108
+  
+FATAL 2015-05-04 10:17:36,525 32009ms ErrorController        HttpError          - Error System.InvalidCastException: Unable to cast object of type 'System.Data.Entity.Infrastructure.DbQuery`1[IDFWebApp.Models.Custom.preference]' to type 'IDFWebApp.Models.Custom.preference'.
+   at IDFWebApp.Controllers.AccountController.getUserPreference() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 108
+  
+FATAL 2015-05-04 10:19:36,769 59084ms ErrorController        HttpError          - Error System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+  
+FATAL 2015-05-04 10:28:02,557 63195ms ErrorController        HttpError          - Error System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+  
+FATAL 2015-05-04 10:41:25,898 80135ms ErrorController        HttpError          - Error System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+  
+FATAL 2015-05-04 10:47:07,637 270969ms ErrorController        HttpError          - Error System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+  
+FATAL 2015-05-04 10:49:31,339 43160ms ErrorController        HttpError          - Error System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+  
+FATAL 2015-05-04 10:51:41,862 117258ms ErrorController        HttpError          - Error System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+  
+FATAL 2015-05-04 10:51:59,859 135254ms ErrorController        HttpError          - Error System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+  
+FATAL 2015-05-04 10:53:45,271 240666ms ErrorController        HttpError          - Error System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for a different claims-based user than the current user.
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+  
+FATAL 2015-05-04 10:53:45,271 240666ms ErrorController        HttpError          - Error System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for a different claims-based user than the current user.
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+
+FATAL 2015-05-04 09:53:32,743 38632ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'Home' was not found on controller 'IDFWebApp.Controllers.Custom.PersonController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-04 15:35:05,360  4169ms ErrorController        HttpError          - Error System.Web.HttpParseException (0x80004005): The using block is missing a closing "}" character.  Make sure you have a matching "}" character for all the "{" characters within this block, and that none of the "}" characters are being interpreted as markup.
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+  
+FATAL 2015-05-04 15:35:06,748  5557ms ErrorController        HttpError          - Error System.Web.HttpParseException (0x80004005): The using block is missing a closing "}" character.  Make sure you have a matching "}" character for all the "{" characters within this block, and that none of the "}" characters are being interpreted as markup.
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+  
+FATAL 2015-05-04 15:35:16,739 15548ms ErrorController        HttpError          - Error System.Web.HttpParseException (0x80004005): The using block is missing a closing "}" character.  Make sure you have a matching "}" character for all the "{" characters within this block, and that none of the "}" characters are being interpreted as markup.
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+  
+FATAL 2015-05-04 16:43:49,996 86588ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_EventClass_Create_cshtml.Execute() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\EventClass\Create.cshtml:line 141
+  
+FATAL 2015-05-04 16:56:50,063 21719ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_EventClass_Create_cshtml.Execute() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\EventClass\Create.cshtml:line 150
+  
+FATAL 2015-05-04 17:21:33,944  1741ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): The controller for path '/__browserLink/requestData/4625873f83c5479eb1eb4ea32d6c4279' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+  
+FATAL 2015-05-04 20:49:56,758  4375ms ErrorController        HttpError          - Error System.Web.Mvc.HttpAntiForgeryException (0x80004005): The required anti-forgery cookie "__RequestVerificationToken" is not present.
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+  
+FATAL 2015-05-04 21:51:01,477  3295ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\EventClass\Create.cshtml(30): error CS0103: The name 'bqm' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-04 21:51:36,211 38028ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\EventClass\Create.cshtml(30): error CS0103: The name 'bqm' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-05 09:21:43,325 14554ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'Find' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Person/Find.aspx
+~/Views/Person/Find.ascx
+~/Views/Shared/Find.aspx
+~/Views/Shared/Find.ascx
+~/Views/Person/Find.cshtml
+~/Views/Person/Find.vbhtml
+~/Views/Shared/Find.cshtml
+~/Views/Shared/Find.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-05 09:22:24,198 55427ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'Find' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Person/Find.aspx
+~/Views/Person/Find.ascx
+~/Views/Shared/Find.aspx
+~/Views/Shared/Find.ascx
+~/Views/Person/Find.cshtml
+~/Views/Person/Find.vbhtml
+~/Views/Shared/Find.cshtml
+~/Views/Shared/Find.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-05 09:23:03,972  3305ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'Find' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+
+FATAL 2015-05-05 09:23:28,004 156890ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'Find' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Person/Find.aspx
+~/Views/Person/Find.ascx
+~/Views/Shared/Find.aspx
+~/Views/Shared/Find.ascx
+~/Views/Person/Find.cshtml
+~/Views/Person/Find.vbhtml
+~/Views/Shared/Find.cshtml
+~/Views/Shared/Find.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-05 10:18:22,226 34026ms ErrorController        HttpError          - Error System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: There is already an open DataReader associated with this Connection which must be closed first.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+  
+FATAL 2015-05-05 10:37:38,554  1573ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'Gender' of non-nullable type 'System.Boolean' for method 'System.Web.Mvc.ActionResult Find(System.String, Boolean, Int32)' in 'IDFWebApp.Controllers.Custom.PersonController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-05 11:59:32,001 63149ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 12:02:59,296 49426ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 12:04:54,363 22780ms ErrorController        HttpError          - Error System.NotSupportedException: Unable to create a constant value of type 'IDFWebApp.Models.ApplicationUser'. Only primitive types or enumeration types are supported in this context.
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.ConstantTranslator.TypedTranslate(ExpressionConverter parent, ConstantExpression linq)
+  
+FATAL 2015-05-05 12:06:26,242 64130ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 12:13:16,678 35307ms ErrorController        HttpError          - Error System.NotSupportedException: LINQ to Entities does not recognize the method 'System.String GetUserId(System.Security.Principal.IIdentity)' method, and this method cannot be translated into a store expression.
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.DefaultTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+  
+FATAL 2015-05-05 12:15:28,086 48830ms ErrorController        HttpError          - Error System.InvalidCastException: Unable to cast object of type 'System.Data.Entity.Infrastructure.DbQuery`1[IDFWebApp.Models.Custom.aspnetuser]' to type 'IDFWebApp.Models.Custom.aspnetuser'.
+   at IDFWebApp.Controllers.AccountController.GetPersonID() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 137
+  
+FATAL 2015-05-05 12:16:26,845 24395ms ErrorController        HttpError          - Error System.NotSupportedException: LINQ to Entities does not recognize the method 'System.String GetUserId(System.Security.Principal.IIdentity)' method, and this method cannot be translated into a store expression.
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.DefaultTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+  
+FATAL 2015-05-05 12:25:52,530 61083ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 13:55:11,718 43169ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 14:05:32,508 20199ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 14:05:45,710 33401ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 14:31:50,976 22950ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 14:35:03,058 22094ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 14:45:12,763 28478ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 14:47:40,198  8581ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.RaceEventController.Index() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\RaceEventController.cs:line 22
+  
+FATAL 2015-05-05 14:47:49,327 17709ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 14:51:04,162 20323ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 14:53:05,920  7501ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.RaceEventController.Index() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\RaceEventController.cs:line 22
+  
+FATAL 2015-05-05 14:53:23,424 25005ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 14:57:17,814 18865ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 14:58:48,992 11348ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 14:59:52,989  4706ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.RaceEventController.Index() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\RaceEventController.cs:line 22
+  
+FATAL 2015-05-05 15:00:05,193 16911ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 15:02:00,595 20646ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 15:04:15,350 13818ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 15:07:18,917 14275ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 15:07:47,144 42502ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.HomeController.GetPersonID() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\HomeController.cs:line 38
+  
+FATAL 2015-05-05 15:08:11,845 67203ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.HomeController.GetPersonID() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\HomeController.cs:line 38
+  
+FATAL 2015-05-05 15:08:36,982  8770ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 15:08:43,285 15073ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 15:10:45,553  5928ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 15:11:11,459 31835ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.HomeController.GetPersonID() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\HomeController.cs:line 38
+  
+FATAL 2015-05-05 15:12:21,252 24951ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.HomeController.GetPersonID() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\HomeController.cs:line 38
+  
+FATAL 2015-05-05 15:13:39,858 50961ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.HomeController.GetPersonID() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\HomeController.cs:line 36
+  
+FATAL 2015-05-05 15:17:50,516 34598ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.HomeController.GetPersonOrganization(Int32 id) in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\HomeController.cs:line 57
+  
+FATAL 2015-05-05 15:18:50,227 36847ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[IDFWebApp.Models.Custom.organization]', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[IDFWebApp.Models.Custom.raceevent]'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-05 16:15:19,958 175287ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): DataBinding: 'System.Data.Entity.DynamicProxies.eventclass_4FC37AFE623F12933E5EE017A7B4245D78A0B13105CD601886B70F03DA027596' does not contain a property with the name 'Name'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+  
+FATAL 2015-05-05 17:29:12,765 49989ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains more than one element
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 19:00:08,615  2186ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): Path '/Views/Shared/EditorTemplates/DateTime.cshtml' was not found.
+   at System.Web.HttpNotFoundHandler.ProcessRequest(HttpContext context)
+  
+FATAL 2015-05-05 19:28:21,771 35504ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\Preference\Create.cshtml(115): error CS1061: 'IDFWebApp.Models.Custom.preference' does not contain a definition for 'EventLevel' and no extension method 'EventLevel' accepting a first argument of type 'IDFWebApp.Models.Custom.preference' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-05 19:29:29,506 103240ms ErrorController        HttpError          - Error System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Duplicate entry '90946-2' for key 'IX_Preference'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-05-05 19:29:32,398 106132ms ErrorController        HttpError          - Error System.Data.Entity.Core.EntityException: An error occurred while starting a transaction on the provider connection. See the inner exception for details. ---> System.InvalidOperationException: Nested transactions are not supported.
+   at MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+  
+FATAL 2015-05-05 21:30:35,950 24014ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 21:30:44,421 32484ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 23:09:28,367  4969ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\Preference\Index.cshtml(12): error CS1579: foreach statement cannot operate on variables of type 'object' because 'object' does not contain a public definition for 'GetEnumerator'
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-05 23:10:20,909 57511ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Preference_Create_cshtml.Execute() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\Preference\Create.cshtml:line 19
+  
+FATAL 2015-05-05 23:11:50,940 147542ms ErrorController        HttpError          - Error System.InvalidOperationException: The ViewData item that has the key 'EventLevelID' is of type 'System.String' but must be of type 'IEnumerable<SelectListItem>'.
+   at System.Web.Mvc.Html.SelectExtensions.GetSelectData(HtmlHelper htmlHelper, String name)
+  
+FATAL 2015-05-05 23:13:17,601 39008ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\Preference\Index.cshtml(12): error CS1579: foreach statement cannot operate on variables of type 'object' because 'object' does not contain a public definition for 'GetEnumerator'
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-05 23:31:39,335 58994ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.HomeController.GetPersonID() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\HomeController.cs:line 37
+  
+FATAL 2015-05-05 23:33:52,290 31093ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-05 23:36:19,406 178210ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.HomeController.GetPersonID() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\HomeController.cs:line 37
+  
+FATAL 2015-05-05 23:56:39,952 73257ms ErrorController        HttpError          - Error System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Duplicate entry '93123-2' for key 'IX_Preference'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-05-05 23:59:21,622 79147ms ErrorController        HttpError          - Error System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Duplicate entry '93123-2' for key 'IX_Preference'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-05-06 00:06:10,852 13331ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Preference_Index_cshtml.Execute() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\Preference\Index.cshtml:line 10
+  
+FATAL 2015-05-06 00:07:07,789 12839ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Preference_Index_cshtml.Execute() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\Preference\Index.cshtml:line 10
+  
+FATAL 2015-05-06 11:15:59,281  4099ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): c:\Users\rafael rozon\AppData\Local\Temp\Temporary ASP.NET Files\root\8e4a6abe\9d1cc578\App_Web_index.cshtml.8b78176b.p2ulc-bu.0.cs(581): error CS1513: } expected
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-06 11:16:02,312  7130ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): c:\Users\rafael rozon\AppData\Local\Temp\Temporary ASP.NET Files\root\8e4a6abe\9d1cc578\App_Web_index.cshtml.8b78176b.p2ulc-bu.0.cs(581): error CS1513: } expected
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+  
+FATAL 2015-05-06 12:02:50,374 17208ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'Preference' was not found on controller 'IDFWebApp.Controllers.Custom.PreferenceController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-06 12:03:16,157 42991ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'Preference' was not found on controller 'IDFWebApp.Controllers.Custom.PreferenceController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+
+FATAL 2015-05-05 14:38:29,148 27413ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.getUserPreference() in c:\Users\Andrew\Desktop\COMP 4900\IDF_new2\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 117
+  
+FATAL 2015-05-05 14:39:23,416 27499ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.getUserPreference() in c:\Users\Andrew\Desktop\COMP 4900\IDF_new2\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 117
+  
+FATAL 2015-05-05 14:40:43,696 107779ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.getUserPreference() in c:\Users\Andrew\Desktop\COMP 4900\IDF_new2\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 117
+  
+FATAL 2015-05-05 14:43:36,332 30537ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.getUserPreference() in c:\Users\Andrew\Desktop\COMP 4900\IDF_new2\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 117
+  
+FATAL 2015-05-05 15:01:04,919 180371ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.getUserPreference() in c:\Users\Andrew\Desktop\COMP 4900\IDF_new2\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 117
+  
+FATAL 2015-05-06 12:51:45,065 629629ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'Gender' of non-nullable type 'System.Boolean' for method 'System.Web.Mvc.ActionResult Find(System.String, Boolean, Int32)' in 'IDFWebApp.Controllers.Custom.PersonController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-06 12:53:10,913  2320ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'Gender' of non-nullable type 'System.Boolean' for method 'System.Web.Mvc.ActionResult Find(System.String, Boolean, Int32)' in 'IDFWebApp.Controllers.Custom.PersonController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+
+FATAL 2015-05-06 09:41:39,157 80376ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.getUserPreference() in c:\Users\Calvin\git\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 114
+  
+FATAL 2015-05-06 13:33:08,441 55465ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.getUserPreference() in c:\Users\Calvin\git\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 114
+  
+FATAL 2015-05-06 13:33:25,284 72308ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.getUserPreference() in c:\Users\Calvin\git\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 114
+  
+FATAL 2015-05-06 13:34:20,591 39533ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.getUserPreference() in c:\Users\Calvin\git\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 114
+  
+FATAL 2015-05-06 13:36:49,427 54255ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.getUserPreference() in c:\Users\Calvin\git\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 113
+  
+FATAL 2015-05-06 13:44:11,500 24990ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.getUserPreference() in c:\Users\Calvin\git\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 113
+  
+FATAL 2015-05-06 13:46:02,554 27501ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.getUserPreference() in c:\Users\Calvin\git\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 113
+  
+FATAL 2015-05-06 15:20:56,872 35038ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-06 15:23:47,755 31481ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-06 15:25:19,900 20175ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-06 15:26:17,656 21507ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-06 15:30:12,307 18874ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-06 15:32:16,852 16490ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-06 15:35:52,634 17086ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-06 15:38:41,941 54236ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-06 15:40:06,386 29839ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-06 15:41:42,207 16956ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-06 15:43:29,688 18888ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-06 15:47:28,506 59072ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-07 09:24:05,868 37184ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.<Login>d__4.MoveNext() in c:\Users\Calvin\git\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 88
+--- End of stack trace from previous location where exception was thrown ---
+  
+FATAL 2015-05-07 09:32:18,577 36698ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.<Login>d__4.MoveNext() in c:\Users\Calvin\git\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 88
+--- End of stack trace from previous location where exception was thrown ---
+  
+FATAL 2015-05-07 09:33:52,372 42018ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.<Login>d__4.MoveNext() in c:\Users\Calvin\git\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 88
+--- End of stack trace from previous location where exception was thrown ---
+  
+FATAL 2015-05-07 09:38:57,456 63086ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.<Login>d__4.MoveNext() in c:\Users\Calvin\git\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 88
+--- End of stack trace from previous location where exception was thrown ---
+  
+FATAL 2015-05-07 09:40:59,035 18562ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.<Login>d__4.MoveNext() in c:\Users\Calvin\git\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 88
+--- End of stack trace from previous location where exception was thrown ---
+  
+FATAL 2015-05-07 09:41:42,965 17379ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.<Login>d__4.MoveNext() in c:\Users\Calvin\git\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 88
+--- End of stack trace from previous location where exception was thrown ---
+  
+FATAL 2015-05-07 09:42:51,612 20186ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.<Login>d__4.MoveNext() in c:\Users\Calvin\git\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 88
+--- End of stack trace from previous location where exception was thrown ---
+  
+FATAL 2015-05-07 09:43:45,014 16628ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.<Login>d__4.MoveNext() in c:\Users\Calvin\git\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 88
+--- End of stack trace from previous location where exception was thrown ---
+  
+FATAL 2015-05-06 15:56:46,952 35493ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_RaceEvent_Create_cshtml.Execute() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\RaceEvent\Create.cshtml:line 17
+  
+FATAL 2015-05-06 16:09:01,160 42674ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): The controller for path '/EventRace/Create' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+  
+FATAL 2015-05-06 16:14:48,943 34582ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'Create' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/Create.aspx
+~/Views/Admin/Create.ascx
+~/Views/Shared/Create.aspx
+~/Views/Shared/Create.ascx
+~/Views/Admin/RaceEvent.master
+~/Views/Shared/RaceEvent.master
+~/Views/Admin/Create.cshtml
+~/Views/Admin/Create.vbhtml
+~/Views/Shared/Create.cshtml
+~/Views/Shared/Create.vbhtml
+~/Views/Admin/RaceEvent.cshtml
+~/Views/Admin/RaceEvent.vbhtml
+~/Views/Shared/RaceEvent.cshtml
+~/Views/Shared/RaceEvent.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-06 18:37:15,702 21598ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-06 18:38:25,881 18877ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.GetPersonID() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 446
+  
+FATAL 2015-05-06 18:40:08,233 23952ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.GetPersonID() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 446
+  
+FATAL 2015-05-06 18:41:20,543 18697ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.GetPersonID() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 446
+  
+FATAL 2015-05-06 18:42:49,020 28916ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.GetPersonID() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 446
+  
+FATAL 2015-05-06 18:43:02,891 42787ms ErrorController        HttpError          - Error System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for a different claims-based user than the current user.
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+  
+FATAL 2015-05-06 18:45:41,068 29498ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.<Login>d__4.MoveNext() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 94
+--- End of stack trace from previous location where exception was thrown ---
+  
+FATAL 2015-05-06 18:50:19,929 20267ms ErrorController        HttpError          - Error System.ArgumentNullException: Value cannot be null.
+Parameter name: manager
+   at Microsoft.AspNet.Identity.UserManagerExtensions.FindByEmail[TUser,TKey](UserManager`2 manager, String email)
+  
+FATAL 2015-05-06 18:50:37,008 37346ms ErrorController        HttpError          - Error System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for a different claims-based user than the current user.
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+  
+FATAL 2015-05-06 21:06:35,185 110893ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult SetUserRole(Int32)' in 'IDFWebApp.Controllers.Custom.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-06 21:53:56,914 43076ms ErrorController        HttpError          - Error System.Web.HttpParseException (0x80004005): Expected "}".
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+  
+FATAL 2015-05-06 21:54:08,823 54985ms ErrorController        HttpError          - Error System.Web.HttpParseException (0x80004005): Expected "}".
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+  
+FATAL 2015-05-06 21:55:23,346 129508ms ErrorController        HttpError          - Error System.Web.HttpParseException (0x80004005): Expected "}".
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+  
+FATAL 2015-05-06 21:55:54,337 160500ms ErrorController        HttpError          - Error System.Web.HttpParseException (0x80004005): Expected "}".
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+  
+FATAL 2015-05-06 21:59:42,282  1015ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult SetUserRole(Int32, Int32)' in 'IDFWebApp.Controllers.Custom.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-06 22:01:12,833 91566ms ErrorController        HttpError          - Error System.Web.HttpParseException (0x80004005): Expected "}".
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+  
+FATAL 2015-05-06 22:05:31,510 86122ms ErrorController        HttpError          - Error System.Web.HttpParseException (0x80004005): Expected "}".
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+  
+FATAL 2015-05-06 22:06:06,588 121200ms ErrorController        HttpError          - Error System.Web.HttpParseException (0x80004005): Expected "}".
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+  
+FATAL 2015-05-06 22:07:23,490 198102ms ErrorController        HttpError          - Error System.Web.HttpParseException (0x80004005): Expected "}".
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+  
+FATAL 2015-05-06 22:10:47,430 63139ms ErrorController        HttpError          - Error System.Web.HttpParseException (0x80004005): Expected "}".
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+  
+FATAL 2015-05-06 22:12:58,938   596ms ErrorController        HttpError          - Error System.ArgumentNullException: Value cannot be null.
+Parameter name: items
+   at System.Web.Mvc.MultiSelectList..ctor(IEnumerable items, String dataValueField, String dataTextField, String dataGroupField, IEnumerable selectedValues, IEnumerable disabledValues, IEnumerable disabledGroups)
+  
+FATAL 2015-05-06 22:17:07,835 50049ms ErrorController        HttpError          - Error System.Web.Mvc.HttpAntiForgeryException (0x80004005): The required anti-forgery form field "__RequestVerificationToken" is not present.
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+  
+FATAL 2015-05-06 22:20:59,176 81453ms ErrorController        HttpError          - Error System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Duplicate entry '90949-1' for key 'IX_PersonOrganizationRole_1'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-05-06 22:34:15,106  8732ms ErrorController        HttpError          - Error System.ArgumentNullException: Value cannot be null.
+Parameter name: items
+   at System.Web.Mvc.MultiSelectList..ctor(IEnumerable items, String dataValueField, String dataTextField, String dataGroupField, IEnumerable selectedValues, IEnumerable disabledValues, IEnumerable disabledGroups)
+  
+FATAL 2015-05-06 22:41:52,024 281262ms ErrorController        HttpError          - Error System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Duplicate entry '90949-1' for key 'IX_PersonOrganizationRole_1'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-05-06 22:43:21,497 75118ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.AdminController.SetUserRole(personorganizationrole personorganizationrole) in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\AdminController.cs:line 156
+  
+FATAL 2015-05-06 22:54:40,561  1397ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult SetUserRole(Int32, Int32)' in 'IDFWebApp.Controllers.Custom.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-06 22:59:09,709  1094ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult SetUserRole(Int32, Int32)' in 'IDFWebApp.Controllers.Custom.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-06 22:59:15,826  7211ms ErrorController        HttpError          - Error System.ArgumentNullException: Value cannot be null.
+Parameter name: items
+   at System.Web.Mvc.MultiSelectList..ctor(IEnumerable items, String dataValueField, String dataTextField, String dataGroupField, IEnumerable selectedValues, IEnumerable disabledValues, IEnumerable disabledGroups)
+  
+FATAL 2015-05-06 23:55:17,858 32982ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.AdminController.getUserPreference(Int32 id) in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\AdminController.cs:line 62
+  
+FATAL 2015-05-06 23:58:42,932 26152ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.AdminController.getUserPreference(Int32 id) in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\AdminController.cs:line 60
+  
+FATAL 2015-05-07 00:13:52,201 18621ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.AdminController.getUserPreference(Int32 id) in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\AdminController.cs:line 60
+  
+FATAL 2015-05-07 00:18:45,316 20327ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.AdminController.getUserPreference(Int32 id) in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\AdminController.cs:line 60
+  
+FATAL 2015-05-07 00:27:19,524 48672ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.AdminController.getUserPreference(Int32 id) in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\AdminController.cs:line 60
+  
+FATAL 2015-05-07 00:36:48,577 19443ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.AdminController.getUserPreference(Int32 id) in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\AdminController.cs:line 60
+  
+FATAL 2015-05-07 00:45:51,142 60172ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.AdminController.getUserPreference(Int32 id) in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\AdminController.cs:line 60
+  
+FATAL 2015-05-07 00:46:26,502 95532ms ErrorController        HttpError          - Error System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.String]'.
+   at ASP._Page_Views_Preference_Index_cshtml.Execute() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\Preference\Index.cshtml:line 43
+  
+FATAL 2015-05-07 00:48:15,991 26051ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.AdminController.getUserPreference(Int32 id) in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\AdminController.cs:line 60
+  
+FATAL 2015-05-07 00:50:27,432 45797ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.AdminController.getUserPreference(Int32 id) in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\AdminController.cs:line 60
+  
+FATAL 2015-05-07 00:52:33,251 17636ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.AdminController.getUserPreference(Int32 id) in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\AdminController.cs:line 60
+  
+FATAL 2015-05-07 00:53:15,948 60333ms ErrorController        HttpError          - Error System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.Collections.Generic.List`1[System.String]'.
+   at ASP._Page_Views_Preference_Index_cshtml.Execute() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\Preference\Index.cshtml:line 38
+  
+FATAL 2015-05-07 00:58:49,173 34279ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.AdminController.getUserPreference(Int32 id) in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\AdminController.cs:line 60
+  
+FATAL 2015-05-07 08:51:49,708 21722ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-07 08:52:03,356 35370ms ErrorController        HttpError          - Error System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for a different claims-based user than the current user.
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+  
+FATAL 2015-05-07 08:52:15,716 47729ms ErrorController        HttpError          - Error System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for a different claims-based user than the current user.
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+  
+FATAL 2015-05-07 08:52:38,212 70225ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-07 08:53:38,353 130366ms ErrorController        HttpError          - Error System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for a different claims-based user than the current user.
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+  
+FATAL 2015-05-07 08:53:41,746 133760ms ErrorController        HttpError          - Error System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for a different claims-based user than the current user.
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+  
+FATAL 2015-05-07 08:54:06,634 158648ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-07 08:54:31,345 183358ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-07 08:56:04,116 24571ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-07 08:57:35,239 24468ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-07 08:57:42,916 32144ms ErrorController        HttpError          - Error System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for a different claims-based user than the current user.
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+  
+FATAL 2015-05-07 08:58:09,940 59169ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-07 08:58:26,284 75513ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-07 08:59:35,886 36801ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-07 09:00:06,747 67661ms ErrorController        HttpError          - Error System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for a different claims-based user than the current user.
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+  
+FATAL 2015-05-07 09:00:47,740 108654ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-07 09:29:17,805 81850ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.AdminController.getUserPreference(Int32 id) in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\AdminController.cs:line 60
+  
+FATAL 2015-05-07 09:29:43,652 107697ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.AdminController.getUserPreference(Int32 id) in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\AdminController.cs:line 60
+  
+FATAL 2015-05-07 09:31:14,610 198655ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.AdminController.getUserPreference(Int32 id) in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\AdminController.cs:line 60
+  
+FATAL 2015-05-07 09:32:40,083 284128ms ErrorController        HttpError          - Error System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for a different claims-based user than the current user.
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+  
+FATAL 2015-05-07 09:33:19,570 323615ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.AdminController.getUserPreference(Int32 id) in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\AdminController.cs:line 60
+  
+FATAL 2015-05-07 09:34:15,714 379759ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.AdminController.getUserPreference(Int32 id) in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\AdminController.cs:line 60
+  
+FATAL 2015-05-07 09:35:51,123 39961ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.AdminController.getUserPreference(Int32 id) in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\AdminController.cs:line 60
+  
+FATAL 2015-05-07 09:39:34,064 64038ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.AdminController.getUserPreference(Int32 id) in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\AdminController.cs:line 60
+  
+FATAL 2015-05-07 10:24:43,894 211308ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'LogOff' was not found on controller 'IDFWebApp.Controllers.AccountController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-07 11:07:00,197 19387ms ErrorController        HttpError          - Error System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+  
+FATAL 2015-05-07 11:18:14,199 63717ms ErrorController        HttpError          - Error System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+  
+FATAL 2015-05-07 11:19:35,850 145368ms ErrorController        HttpError          - Error System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+  
+FATAL 2015-05-07 11:20:15,619 185137ms ErrorController        HttpError          - Error System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+  
+FATAL 2015-05-07 11:24:43,510 169472ms ErrorController        HttpError          - Error System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+   at System.String.Substring(Int32 startIndex, Int32 length)
+  
+FATAL 2015-05-07 11:40:55,056  6642ms ErrorController        HttpError          - Error System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.OrderedEnumerable`2..ctor(IEnumerable`1 source, Func`2 keySelector, IComparer`1 comparer, Boolean descending)
+  
+FATAL 2015-05-07 11:41:47,822 59408ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_RaceEvent_Create_cshtml.Execute() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\RaceEvent\Create.cshtml:line 58
+  
+FATAL 2015-05-07 11:42:51,785  4993ms ErrorController        HttpError          - Error System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.OrderedEnumerable`2..ctor(IEnumerable`1 source, Func`2 keySelector, IComparer`1 comparer, Boolean descending)
+  
+FATAL 2015-05-07 11:43:30,409 43617ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_RaceEvent_Create_cshtml.Execute() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\RaceEvent\Create.cshtml:line 58
+  
+FATAL 2015-05-07 11:45:14,852  4952ms ErrorController        HttpError          - Error System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.OrderedEnumerable`2..ctor(IEnumerable`1 source, Func`2 keySelector, IComparer`1 comparer, Boolean descending)
+  
+FATAL 2015-05-07 11:49:54,302  7743ms ErrorController        HttpError          - Error System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.OrderedEnumerable`2..ctor(IEnumerable`1 source, Func`2 keySelector, IComparer`1 comparer, Boolean descending)
+  
+FATAL 2015-05-07 11:52:30,076  6642ms ErrorController        HttpError          - Error System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.OrderedEnumerable`2..ctor(IEnumerable`1 source, Func`2 keySelector, IComparer`1 comparer, Boolean descending)
+  
+FATAL 2015-05-08 09:49:43,356 731509ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method '20' was not found on controller 'IDFWebApp.Controllers.Custom.EventClassController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-08 17:27:44,244 139036ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult SetUserRole(Int32, Int32)' in 'IDFWebApp.Controllers.Custom.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-08 18:29:34,968 13954ms ErrorController        HttpError          - Error System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.OrderedEnumerable`2..ctor(IEnumerable`1 source, Func`2 keySelector, IComparer`1 comparer, Boolean descending)
+  
+FATAL 2015-05-08 19:13:58,427  9279ms ErrorController        HttpError          - Error System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.OrderedEnumerable`2..ctor(IEnumerable`1 source, Func`2 keySelector, IComparer`1 comparer, Boolean descending)
+  
+FATAL 2015-05-08 23:18:35,172 22319ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.<Login>d__4.MoveNext() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 104
+--- End of stack trace from previous location where exception was thrown ---
+  
+FATAL 2015-05-08 23:18:50,184 37330ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.<Login>d__4.MoveNext() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 104
+--- End of stack trace from previous location where exception was thrown ---
+  
+FATAL 2015-05-08 23:19:12,238  3312ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.<Login>d__4.MoveNext() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 104
+--- End of stack trace from previous location where exception was thrown ---
+  
+FATAL 2015-05-08 23:49:19,837 41027ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.<Login>d__4.MoveNext() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 114
+--- End of stack trace from previous location where exception was thrown ---
+  
+FATAL 2015-05-08 23:49:38,953 60144ms ErrorController        HttpError          - Error System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for a different claims-based user than the current user.
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+  
+FATAL 2015-05-08 23:50:03,887 85077ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.<Login>d__4.MoveNext() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 114
+--- End of stack trace from previous location where exception was thrown ---
+  
+FATAL 2015-05-08 23:54:33,961 84615ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.AccountController.<Login>d__4.MoveNext() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\AccountController.cs:line 114
+--- End of stack trace from previous location where exception was thrown ---
+  
+FATAL 2015-05-09 09:43:03,837  4076ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult SetUserRole(Int32, Int32)' in 'IDFWebApp.Controllers.Custom.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-09 09:44:02,125 62365ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult SetUserRole(Int32, Int32)' in 'IDFWebApp.Controllers.Custom.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-09 10:12:06,138 77669ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Data.Entity.DynamicProxies.raceevent_6B32C2ACA35A853CED00F7C9CD1BE8F639B48B033CCF419BD3D60814D483FF37', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[IDFWebApp.Models.Custom.raceevent]'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-09 10:12:25,545 97076ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Data.Entity.DynamicProxies.raceevent_6B32C2ACA35A853CED00F7C9CD1BE8F639B48B033CCF419BD3D60814D483FF37', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[IDFWebApp.Models.Custom.raceevent]'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-09 11:51:34,934  2070ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult SetUserRole(Int32, Int32)' in 'IDFWebApp.Controllers.Custom.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-09 12:00:10,791  2280ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'ConfirmNewSuperUser' was not found on controller 'IDFWebApp.Controllers.Custom.AdminController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-09 13:24:43,501 15375ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): The controller for path '/contact' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+  
+FATAL 2015-05-09 13:25:05,109 36983ms ErrorController        HttpError          - Error System.Web.HttpParseException (0x80004005): Only one 'model' statement is allowed in a file.
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+  
+FATAL 2015-05-09 13:52:50,207   875ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'partial' was not found on controller 'IDFWebApp.Controllers.Custom.RegistrantsController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+
+FATAL 2015-05-09 17:03:02,633 29171ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'ManageAdmins' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/ManageAdmins.aspx
+~/Views/Admin/ManageAdmins.ascx
+~/Views/Shared/ManageAdmins.aspx
+~/Views/Shared/ManageAdmins.ascx
+~/Views/Admin/ManageAdmins.cshtml
+~/Views/Admin/ManageAdmins.vbhtml
+~/Views/Shared/ManageAdmins.cshtml
+~/Views/Shared/ManageAdmins.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-09 17:03:47,200  3560ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'ManageAdmins' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/ManageAdmins.aspx
+~/Views/Admin/ManageAdmins.ascx
+~/Views/Shared/ManageAdmins.aspx
+~/Views/Shared/ManageAdmins.ascx
+~/Views/Admin/ManageAdmins.cshtml
+~/Views/Admin/ManageAdmins.vbhtml
+~/Views/Shared/ManageAdmins.cshtml
+~/Views/Shared/ManageAdmins.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-09 17:04:55,956 27932ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'GetRoles' was not found on controller 'IDFWebApp.Controllers.AccountController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-09 17:06:03,034 95010ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'RoleAddToUser' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/RoleAddToUser.aspx
+~/Views/Admin/RoleAddToUser.ascx
+~/Views/Shared/RoleAddToUser.aspx
+~/Views/Shared/RoleAddToUser.ascx
+~/Views/Admin/RoleAddToUser.cshtml
+~/Views/Admin/RoleAddToUser.vbhtml
+~/Views/Shared/RoleAddToUser.cshtml
+~/Views/Shared/RoleAddToUser.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-09 17:34:14,997 353981ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\Person\Details.cshtml(74): error CS0103: The name 'item' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-09 18:28:36,329 239671ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Admin_PartialView__RemoveUserRolePartial_cshtml.Execute() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\Admin\PartialView\_RemoveUserRolePartial.cshtml:line 16
+  
+FATAL 2015-05-09 18:44:35,040 14366ms ErrorController        HttpError          - Error System.ArgumentNullException: Value cannot be null.
+Parameter name: items
+   at System.Web.Mvc.MultiSelectList..ctor(IEnumerable items, String dataValueField, String dataTextField, String dataGroupField, IEnumerable selectedValues, IEnumerable disabledValues, IEnumerable disabledGroups)
+  
+FATAL 2015-05-09 19:05:18,932  5266ms ErrorController        HttpError          - Error System.ArgumentNullException: Value cannot be null.
+Parameter name: items
+   at System.Web.Mvc.MultiSelectList..ctor(IEnumerable items, String dataValueField, String dataTextField, String dataGroupField, IEnumerable selectedValues, IEnumerable disabledValues, IEnumerable disabledGroups)
+  
+FATAL 2015-05-09 19:06:00,757 47090ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\Admin\PartialView\_RemoveUserRolePartial.cshtml(16): error CS1579: foreach statement cannot operate on variables of type 'object' because 'object' does not contain a public definition for 'GetEnumerator'
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-09 19:06:22,922 69255ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\Admin\PartialView\_RemoveUserRolePartial.cshtml(16): error CS1579: foreach statement cannot operate on variables of type 'object' because 'object' does not contain a public definition for 'GetEnumerator'
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-09 19:06:39,759 86092ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\Admin\PartialView\_RemoveUserRolePartial.cshtml(16): error CS1579: foreach statement cannot operate on variables of type 'object' because 'object' does not contain a public definition for 'GetEnumerator'
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-09 19:07:43,270 149603ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\Admin\PartialView\_RemoveUserRolePartial.cshtml(16): error CS1579: foreach statement cannot operate on variables of type 'object' because 'object' does not contain a public definition for 'GetEnumerator'
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-09 19:08:18,115 184449ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\Admin\PartialView\_RemoveUserRolePartial.cshtml(16): error CS1579: foreach statement cannot operate on variables of type 'object' because 'object' does not contain a public definition for 'GetEnumerator'
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-09 19:09:09,339  9456ms ErrorController        HttpError          - Error System.ArgumentNullException: Value cannot be null.
+Parameter name: items
+   at System.Web.Mvc.MultiSelectList..ctor(IEnumerable items, String dataValueField, String dataTextField, String dataGroupField, IEnumerable selectedValues, IEnumerable disabledValues, IEnumerable disabledGroups)
+  
+FATAL 2015-05-09 19:09:14,538 14655ms ErrorController        HttpError          - Error System.ArgumentNullException: Value cannot be null.
+Parameter name: items
+   at System.Web.Mvc.MultiSelectList..ctor(IEnumerable items, String dataValueField, String dataTextField, String dataGroupField, IEnumerable selectedValues, IEnumerable disabledValues, IEnumerable disabledGroups)
+  
+FATAL 2015-05-09 19:10:16,774 76890ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): DataBinding: 'System.Data.Entity.DynamicProxies.personorganizationro_A3632829E425C2B9938BDCB4DC8666D01420BD5D7A11909D05E0645DE425AA00' does not contain a property with the name 'Name'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+  
+FATAL 2015-05-09 19:10:44,234 104351ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): DataBinding: 'System.Data.Entity.DynamicProxies.personorganizationro_A3632829E425C2B9938BDCB4DC8666D01420BD5D7A11909D05E0645DE425AA00' does not contain a property with the name 'Name'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+  
+FATAL 2015-05-10 14:17:40,172 39294ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Data.Entity.DynamicProxies.raceevent_6B32C2ACA35A853CED00F7C9CD1BE8F639B48B033CCF419BD3D60814D483FF37', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[IDFWebApp.Models.Custom.raceevent]'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-10 14:26:40,094 41062ms ErrorController        HttpError          - Error System.ArgumentNullException: Value cannot be null.
+Parameter name: items
+   at System.Web.Mvc.MultiSelectList..ctor(IEnumerable items, String dataValueField, String dataTextField, String dataGroupField, IEnumerable selectedValues, IEnumerable disabledValues, IEnumerable disabledGroups)
+  
+FATAL 2015-05-10 19:02:23,394 183819ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.PersonController.Find(String query, Int32 CountryID) in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Controllers\Custom\PersonController.cs:line 248
+  
+FATAL 2015-05-10 19:19:13,808  1954ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult RemoveUserRole(Int32, Int32)' in 'IDFWebApp.Controllers.Custom.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-10 20:04:03,635 189428ms ErrorController        HttpError          - Error System.ArgumentNullException: Value cannot be null.
+Parameter name: items
+   at System.Web.Mvc.MultiSelectList..ctor(IEnumerable items, String dataValueField, String dataTextField, String dataGroupField, IEnumerable selectedValues, IEnumerable disabledValues, IEnumerable disabledGroups)
+  
+FATAL 2015-05-11 12:04:06,054  6216ms ErrorController        HttpError          - Error System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.OrderedEnumerable`2..ctor(IEnumerable`1 source, Func`2 keySelector, IComparer`1 comparer, Boolean descending)
+  
+FATAL 2015-05-11 12:07:14,591 194752ms ErrorController        HttpError          - Error System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.OrderedEnumerable`2..ctor(IEnumerable`1 source, Func`2 keySelector, IComparer`1 comparer, Boolean descending)
+  
+FATAL 2015-05-11 13:31:49,444 112934ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): The controller for path '/Comments' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+  
+FATAL 2015-05-11 13:31:52,868 116358ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): The controller for path '/Comment' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+  
+FATAL 2015-05-11 15:20:23,660 79551ms ErrorController        HttpError          - Error System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> MySql.Data.MySqlClient.MySqlException: Duplicate entry 'sofia-rozon' for key 'IX_Person_1'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-05-11 18:26:00,174 156183ms ErrorController        HttpError          - Error System.InvalidOperationException: There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'OrganizationID'.
+   at System.Web.Mvc.Html.SelectExtensions.GetSelectData(HtmlHelper htmlHelper, String name)
+  
+FATAL 2015-05-11 18:30:08,906 91044ms ErrorController        HttpError          - Error System.InvalidOperationException: There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'OrganizationID'.
+   at System.Web.Mvc.Html.SelectExtensions.GetSelectData(HtmlHelper htmlHelper, String name)
+  
+FATAL 2015-05-11 22:32:13,228  1324ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult SetUserRole(Int32, Int32)' in 'IDFWebApp.Controllers.Custom.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-11 22:37:49,143  1512ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult SetUserRole(Int32, Int32)' in 'IDFWebApp.Controllers.Custom.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-11 22:48:47,303 105469ms ErrorController        HttpError          - Error System.Web.HttpParseException (0x80004005): Expected a "{" but found a "<".  Block statements must be enclosed in "{" and "}".  You cannot use single-statement control-flow statements in CSHTML pages. For example, the following is not allowed:
+
+@if(isLoggedIn)
+    <p>Hello, @user</p>
+
+Instead, wrap the contents of the block in "{}":
+
+@if(isLoggedIn) {
+    <p>Hello, @user</p>
+}
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+  
+FATAL 2015-05-11 22:49:39,637 157803ms ErrorController        HttpError          - Error System.Web.HttpParseException (0x80004005): Expected a "{" but found a "<".  Block statements must be enclosed in "{" and "}".  You cannot use single-statement control-flow statements in CSHTML pages. For example, the following is not allowed:
+
+@if(isLoggedIn)
+    <p>Hello, @user</p>
+
+Instead, wrap the contents of the block in "{}":
+
+@if(isLoggedIn) {
+    <p>Hello, @user</p>
+}
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+  
+FATAL 2015-05-11 22:49:43,180 161346ms ErrorController        HttpError          - Error System.Web.HttpParseException (0x80004005): Expected a "{" but found a "<".  Block statements must be enclosed in "{" and "}".  You cannot use single-statement control-flow statements in CSHTML pages. For example, the following is not allowed:
+
+@if(isLoggedIn)
+    <p>Hello, @user</p>
+
+Instead, wrap the contents of the block in "{}":
+
+@if(isLoggedIn) {
+    <p>Hello, @user</p>
+}
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+  
+FATAL 2015-05-11 23:12:32,142  1928ms ErrorController        HttpError          - Error System.Web.HttpParseException (0x80004005): Unexpected "if" keyword after "@" character.  Once inside code, you do not need to prefix constructs like "if" with "@".
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+  
+FATAL 2015-05-11 23:12:38,058  7844ms ErrorController        HttpError          - Error System.Web.HttpParseException (0x80004005): Unexpected "if" keyword after "@" character.  Once inside code, you do not need to prefix constructs like "if" with "@".
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+  
+FATAL 2015-05-11 23:12:53,411 23197ms ErrorController        HttpError          - Error System.Web.HttpParseException (0x80004005): Unexpected "if" keyword after "@" character.  Once inside code, you do not need to prefix constructs like "if" with "@".
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+  
+FATAL 2015-05-11 23:27:08,129  5736ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\EventClass\Index.cshtml(51): error CS1061: 'System.Collections.Generic.IEnumerable<IDFWebApp.Models.Custom.eventclass>' does not contain a definition for 'raceevent' and no extension method 'raceevent' accepting a first argument of type 'System.Collections.Generic.IEnumerable<IDFWebApp.Models.Custom.eventclass>' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-12 09:57:41,549 76406ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Data.Entity.DynamicProxies.raceevent_6B32C2ACA35A853CED00F7C9CD1BE8F639B48B033CCF419BD3D60814D483FF37', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[IDFWebApp.Models.Custom.raceevent]'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-12 10:02:07,432 342289ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Data.Entity.DynamicProxies.raceevent_6B32C2ACA35A853CED00F7C9CD1BE8F639B48B033CCF419BD3D60814D483FF37', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[IDFWebApp.Models.Custom.raceevent]'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-12 10:19:22,115 18627ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_EventClass_Create_cshtml.Execute() in r:\workspace_bcit\4900\NewRemote\COMP4900\IDFWebApp\Views\EventClass\Create.cshtml:line 214
+  
+FATAL 2015-05-12 10:24:53,817 113163ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Data.Entity.DynamicProxies.raceevent_6B32C2ACA35A853CED00F7C9CD1BE8F639B48B033CCF419BD3D60814D483FF37', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[IDFWebApp.Models.Custom.raceevent]'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-12 10:25:06,235 125581ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Data.Entity.DynamicProxies.raceevent_6B32C2ACA35A853CED00F7C9CD1BE8F639B48B033CCF419BD3D60814D483FF37', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[IDFWebApp.Models.Custom.raceevent]'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-12 10:34:44,331 32361ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Data.Entity.DynamicProxies.raceevent_6B32C2ACA35A853CED00F7C9CD1BE8F639B48B033CCF419BD3D60814D483FF37', but this dictionary requires a model item of type 'System.Collections.Generic.IEnumerable`1[IDFWebApp.Models.Custom.raceevent]'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-12 10:38:00,302 44972ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): c:\Users\rafael rozon\AppData\Local\Temp\Temporary ASP.NET Files\root\8e4a6abe\9d1cc578\App_Web_delete.cshtml.39c486e2.cvqzqukz.0.cs(31): error CS0234: The type or namespace name 'raceevent' does not exist in the namespace 'IDFWebApp.Models' (are you missing an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-12 10:57:24,738 13642ms ErrorController        HttpError          - Error System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.OrderedEnumerable`2..ctor(IEnumerable`1 source, Func`2 keySelector, IComparer`1 comparer, Boolean descending)
+  
+
+FATAL 2015-05-12 09:37:22,468 46579ms ErrorController        HttpError          - Error MySql.Data.MySqlClient.MySqlException (0x80004005): Specified key was too long; max key length is 767 bytes
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-05-12 09:57:17,380 29423ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Data.Entity.Infrastructure.DbQuery`1[<>f__AnonymousType3`2[System.String,System.String]]', but this dictionary requires a model item of type 'IDFWebApp.Models.LoginViewModel'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-12 09:59:11,982 36850ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Data.Entity.Infrastructure.DbQuery`1[<>f__AnonymousType3`2[System.String,System.String]]', but this dictionary requires a model item of type 'IDFWebApp.Models.LoginViewModel'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-12 10:00:37,663 49028ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[<>f__AnonymousType3`2[System.String,System.String]]', but this dictionary requires a model item of type 'IDFWebApp.Models.LoginViewModel'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-12 10:01:35,316 23972ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[<>f__AnonymousType3`2[System.String,System.String]]', but this dictionary requires a model item of type 'IDFWebApp.Models.LoginViewModel'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-12 10:07:50,168 34410ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[IDFWebApp.Models.Custom.PersonSelect]', but this dictionary requires a model item of type 'IDFWebApp.Models.LoginViewModel'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-12 10:09:54,775 28059ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[IDFWebApp.Models.Custom.PersonSelect]', but this dictionary requires a model item of type 'IDFWebApp.Models.LoginViewModel'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-12 10:21:45,237 15412ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[IDFWebApp.Models.Custom.PersonSelect]', but this dictionary requires a model item of type 'IDFWebApp.Models.LoginViewModel'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-12 10:22:51,084 16595ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[IDFWebApp.Models.Custom.PersonSelect]', but this dictionary requires a model item of type 'IDFWebApp.Models.LoginViewModel'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-12 10:23:46,335 16367ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[IDFWebApp.Models.Custom.PersonSelect]', but this dictionary requires a model item of type 'IDFWebApp.Models.LoginViewModel'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-12 10:25:02,321  1103ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'PersonSelect' was not found on controller 'IDFWebApp.Controllers.AccountController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-12 10:35:31,906 16732ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[IDFWebApp.Models.Custom.PersonSelect]', but this dictionary requires a model item of type 'IDFWebApp.Models.LoginViewModel'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-12 10:38:14,220 25951ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[IDFWebApp.Models.Custom.PersonSelect]', but this dictionary requires a model item of type 'IDFWebApp.Models.LoginViewModel'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+  
+FATAL 2015-05-12 10:52:24,815 29367ms ErrorController        HttpError          - Error System.InvalidOperationException: The model item passed into the dictionary is of type 'System.Collections.Generic.List`1[IDFWebApp.Models.Custom.PersonSelect]', but this dictionary requires a model item of type 'IDFWebApp.Models.LoginViewModel'.
+   at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+   
+FATAL 2015-05-12 15:42:45,258 59819ms ErrorController        HttpError          - Error System.InvalidOperationException: There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'OrganizationID'.
+   at System.Web.Mvc.Html.SelectExtensions.GetSelectData(HtmlHelper htmlHelper, String name)
+  
+FATAL 2015-05-12 16:22:57,908  1149ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult SetUserRole(Int32, Int32)' in 'IDFWebApp.Controllers.Custom.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-12 16:25:29,632 152873ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): The controller for path '/RaceEvent' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+  
+FATAL 2015-05-12 16:25:48,039 171281ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): The controller for path '/RaceEvent' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+  
+FATAL 2015-05-12 16:26:27,459 210700ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): The controller for path '/RaceEvent' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+  
+FATAL 2015-05-12 16:27:33,351 30639ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): The controller for path '/RaceEvent' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+  
+FATAL 2015-05-12 16:27:40,367 37655ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): The controller for path '/RaceEvent/Create' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+  
+FATAL 2015-05-12 16:27:47,477 44765ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): The controller for path '/RaceEvent' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+  
+FATAL 2015-05-12 16:29:59,073 176361ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): The controller for path '/RaceEvent' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+  
+FATAL 2015-05-13 10:45:24,257 83256ms ErrorController        HttpError          - Error System.InvalidOperationException: There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'NationalityID'.
+   at System.Web.Mvc.Html.SelectExtensions.GetSelectData(HtmlHelper htmlHelper, String name)
+  
+FATAL 2015-05-13 10:56:14,890 81008ms ErrorController        HttpError          - Error System.InvalidOperationException: There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'CountryID'.
+   at System.Web.Mvc.Html.SelectExtensions.GetSelectData(HtmlHelper htmlHelper, String name)
+  
+FATAL 2015-05-13 11:01:30,832 86165ms ErrorController        HttpError          - Error System.InvalidOperationException: There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'CountryID'.
+   at System.Web.Mvc.Html.SelectExtensions.GetSelectData(HtmlHelper htmlHelper, String name)
+  
+FATAL 2015-05-13 11:04:10,093 26475ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'LogOff' was not found on controller 'IDFWebApp.Controllers.AccountController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-13 11:10:06,233 64309ms ErrorController        HttpError          - Error System.InvalidOperationException: There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'NationalityID'.
+   at System.Web.Mvc.Html.SelectExtensions.GetSelectData(HtmlHelper htmlHelper, String name)
+
+FATAL 2015-05-13 09:50:37,109 95163ms ErrorController        HttpError          - Error MySql.Data.MySqlClient.MySqlException (0x80004005): Specified key was too long; max key length is 767 bytes
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+  
+FATAL 2015-05-13 10:25:55,951 38011ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): DataBinding: 'IDFWebApp.Models.Custom.PersonSelect' does not contain a property with the name 'Name'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+  
+FATAL 2015-05-13 10:31:35,863 63275ms ErrorController        HttpError          - Error System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for a different claims-based user than the current user.
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+  
+FATAL 2015-05-13 11:33:29,793  1677ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'PersonSelect' was not found on controller 'IDFWebApp.Controllers.AccountController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-13 11:42:17,025 23097ms ErrorController        HttpError          - Error System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for a different claims-based user than the current user.
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+  
+FATAL 2015-05-13 11:43:48,795 25565ms ErrorController        HttpError          - Error System.Web.Mvc.HttpAntiForgeryException (0x80004005): The required anti-forgery form field "__RequestVerificationToken" is not present.
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+  
+FATAL 2015-05-13 11:44:59,469  1114ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'PersonSelect' was not found on controller 'IDFWebApp.Controllers.AccountController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-13 11:45:19,848 21493ms ErrorController        HttpError          - Error System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for a different claims-based user than the current user.
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+  
+FATAL 2015-05-13 11:46:50,193 22404ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'Select' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Account/Select.aspx
+~/Views/Account/Select.ascx
+~/Views/Shared/Select.aspx
+~/Views/Shared/Select.ascx
+~/Views/Account/Select.cshtml
+~/Views/Account/Select.vbhtml
+~/Views/Shared/Select.cshtml
+~/Views/Shared/Select.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:48:34,860 20744ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'SelectPerson' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Account/SelectPerson.aspx
+~/Views/Account/SelectPerson.ascx
+~/Views/Shared/SelectPerson.aspx
+~/Views/Shared/SelectPerson.ascx
+~/Views/Account/SelectPerson.cshtml
+~/Views/Account/SelectPerson.vbhtml
+~/Views/Shared/SelectPerson.cshtml
+~/Views/Shared/SelectPerson.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 12:16:49,001  2337ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'PersonSelect' was not found on controller 'IDFWebApp.Controllers.AccountController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-13 13:06:30,532 33708ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'SelectPerson' was not found on controller 'IDFWebApp.Controllers.AccountController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-13 13:08:01,505 35592ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'Create' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Person/Create.aspx
+~/Views/Person/Create.ascx
+~/Views/Shared/Create.aspx
+~/Views/Shared/Create.ascx
+~/Views/Person/Create.cshtml
+~/Views/Person/Create.vbhtml
+~/Views/Shared/Create.cshtml
+~/Views/Shared/Create.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   
+  
+FATAL 2015-05-13 13:29:54,356 13540ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'Create' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Person/Create.aspx
+~/Views/Person/Create.ascx
+~/Views/Shared/Create.aspx
+~/Views/Shared/Create.ascx
+~/Views/Person/Create.cshtml
+~/Views/Person/Create.vbhtml
+~/Views/Shared/Create.cshtml
+~/Views/Shared/Create.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 13:30:11,053 30237ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'Create' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Person/Create.aspx
+~/Views/Person/Create.ascx
+~/Views/Shared/Create.aspx
+~/Views/Shared/Create.ascx
+~/Views/Person/Create.cshtml
+~/Views/Person/Create.vbhtml
+~/Views/Shared/Create.cshtml
+~/Views/Shared/Create.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 12:21:25,763 71621ms ErrorController        HttpError          - Error System.InvalidOperationException: There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'NationalityID'.
+   at System.Web.Mvc.Html.SelectExtensions.GetSelectData(HtmlHelper htmlHelper, String name)
+  
+FATAL 2015-05-13 12:38:05,841 85256ms ErrorController        HttpError          - Error System.InvalidOperationException: There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'NationalityID'.
+   at System.Web.Mvc.Html.SelectExtensions.GetSelectData(HtmlHelper htmlHelper, String name)
+  
+FATAL 2015-05-13 12:44:27,630 74025ms ErrorController        HttpError          - Error System.InvalidOperationException: There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'NationalityID'.
+   at System.Web.Mvc.Html.SelectExtensions.GetSelectData(HtmlHelper htmlHelper, String name)
+
+FATAL 2015-05-12 10:25:36,070 35081ms ErrorController        HttpError          - Error System.InvalidOperationException: Role Admin does not exist.
+   at Microsoft.AspNet.Identity.EntityFramework.UserStore`6.<AddToRoleAsync>d__3b.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+  
+FATAL 2015-05-12 10:28:35,373 34294ms ErrorController        HttpError          - Error System.InvalidOperationException: Role Admin does not exist.
+   at Microsoft.AspNet.Identity.EntityFramework.UserStore`6.<AddToRoleAsync>d__3b.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+  
+FATAL 2015-05-12 10:31:21,745 200665ms ErrorController        HttpError          - Error System.InvalidOperationException: Role Admin does not exist.
+   at Microsoft.AspNet.Identity.EntityFramework.UserStore`6.<AddToRoleAsync>d__3b.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+  
+FATAL 2015-05-12 10:51:45,292 154686ms ErrorController        HttpError          - Error System.InvalidOperationException: There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'OrganizationID'.
+   at System.Web.Mvc.Html.SelectExtensions.GetSelectData(HtmlHelper htmlHelper, String name)
+  
+FATAL 2015-05-13 10:52:36,989 21657ms ErrorController        HttpError          - Error System.Web.HttpParseException (0x80004005): Expected a "{" but found a "<".  Block statements must be enclosed in "{" and "}".  You cannot use single-statement control-flow statements in CSHTML pages. For example, the following is not allowed:
+
+@if(isLoggedIn)
+    <p>Hello, @user</p>
+
+Instead, wrap the contents of the block in "{}":
+
+@if(isLoggedIn) {
+    <p>Hello, @user</p>
+}
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+  
+FATAL 2015-05-13 10:54:39,215 24524ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 10:54:40,830 26139ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 10:54:48,729 34038ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 10:54:49,421 34730ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 10:54:50,588 35897ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 10:54:50,815 36124ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:08:16,875 234691ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:08:18,932 236748ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:08:20,484 238301ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:08:22,733 240549ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:08:22,948 240764ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:21:26,805 21769ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:21:27,213 22177ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:21:27,484 22448ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:21:27,771 22735ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:21:27,960 22924ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:21:28,444 23408ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:21:29,086 24050ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:21:29,788 24752ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:21:30,097 25061ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:21:31,082 26046ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:21:31,743 26707ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:21:32,688 27652ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:21:32,960 27924ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:21:33,364 28328ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:21:34,185 29148ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:21:34,649 29612ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:21:34,833 29797ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:21:35,148 30111ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:21:35,333 30296ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:22:45,724 100688ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:22:46,244 101208ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:22:46,617 101581ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:22:46,882 101846ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:22:48,180 103144ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 11:22:48,415 103379ms ErrorController        HttpError          - Error System.InvalidOperationException: The partial view '~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Admin/PartialView/_JoinOrganizationPartial.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-13 13:07:43,727 97694ms ErrorController        HttpError          - Error System.Web.Mvc.HttpAntiForgeryException (0x80004005): The required anti-forgery form field "__RequestVerificationToken" is not present.
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+  
+FATAL 2015-05-13 13:13:14,725 51168ms ErrorController        HttpError          - Error System.Web.Mvc.HttpAntiForgeryException (0x80004005): The required anti-forgery form field "__RequestVerificationToken" is not present.
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+
+FATAL 2015-05-13 16:04:04,936 3001852ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Admin_SetUserRole_cshtml.Execute() in r:\workspace_bcit\4900\LastRemote\COMP4900\IDFWebApp\Views\Admin\SetUserRole.cshtml:line 57
+  
+FATAL 2015-05-13 16:04:24,397 3021313ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Admin_SetUserRole_cshtml.Execute() in r:\workspace_bcit\4900\LastRemote\COMP4900\IDFWebApp\Views\Admin\SetUserRole.cshtml:line 57
+  
+FATAL 2015-05-13 16:10:05,668 3362584ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Admin_RemoveUserRole_cshtml.Execute() in r:\workspace_bcit\4900\LastRemote\COMP4900\IDFWebApp\Views\Admin\RemoveUserRole.cshtml:line 47
+  
+FATAL 2015-05-13 18:03:32,848 214848ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'personID' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult SetSuperUser(Int32)' in 'IDFWebApp.Controllers.Custom.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-13 18:09:00,245 542245ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'personID' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult SetSuperUser(Int32)' in 'IDFWebApp.Controllers.Custom.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-13 18:16:32,549 103499ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'personID' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult SetSuperUser(Int32)' in 'IDFWebApp.Controllers.Custom.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-13 18:17:09,369 140319ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'personID' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult SetSuperUser(Int32)' in 'IDFWebApp.Controllers.Custom.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-13 19:41:43,035 55357ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'Create' was not found on controller 'IDFWebApp.Controllers.HomeController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-13 22:08:58,216 65756ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'AdminCreatePerson' was not found on controller 'IDFWebApp.Controllers.AccountController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-13 22:10:58,161 185701ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'GetUserRoles' was not found on controller 'IDFWebApp.Controllers.AccountController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-13 22:11:25,654 213194ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'GetUserRoles' was not found on controller 'IDFWebApp.Controllers.AccountController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-13 22:11:39,135 226675ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'GetUserRoles' was not found on controller 'IDFWebApp.Controllers.AccountController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-13 22:12:04,525 252066ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'RemoveUserRole' was not found on controller 'IDFWebApp.Controllers.AccountController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+
+FATAL 2015-05-13 19:49:05,692 2942323ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Admin_SetUserRole_cshtml.Execute() in c:\Users\Andrew\Desktop\COMP 4900\IDF_new4\COMP4900\IDFWebApp\Views\Admin\SetUserRole.cshtml:line 57
+  
+FATAL 2015-05-14 09:51:33,908 591803ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Admin_RemoveUserRole_cshtml.Execute() in c:\Users\Andrew\Desktop\COMP 4900\IDF_new4\COMP4900\IDFWebApp\Views\Admin\RemoveUserRole.cshtml:line 47
+  
+FATAL 2015-05-14 09:53:24,801 702697ms ErrorController        HttpError          - Error System.InvalidOperationException: There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'OrganizationID'.
+   at System.Web.Mvc.Html.SelectExtensions.GetSelectData(HtmlHelper htmlHelper, String name)
+  
+FATAL 2015-05-14 09:55:31,836 829732ms ErrorController        HttpError          - Error System.InvalidOperationException: There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'OrganizationID'.
+   at System.Web.Mvc.Html.SelectExtensions.GetSelectData(HtmlHelper htmlHelper, String name)
+  
+FATAL 2015-05-14 10:03:16,437 1294333ms ErrorController        HttpError          - Error System.InvalidOperationException: There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'OrganizationID'.
+   at System.Web.Mvc.Html.SelectExtensions.GetSelectData(HtmlHelper htmlHelper, String name)
+  
+FATAL 2015-05-14 10:57:54,999 4572894ms ErrorController        HttpError          - Error System.InvalidOperationException: There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'Name'.
+   at System.Web.Mvc.Html.SelectExtensions.GetSelectData(HtmlHelper htmlHelper, String name)
+
+  
+FATAL 2015-05-14 11:20:53,319 3039754ms ErrorController        HttpError          - Error System.ArgumentNullException: Value cannot be null.
+Parameter name: items
+   at System.Web.Mvc.MultiSelectList..ctor(IEnumerable items, String dataValueField, String dataTextField, String dataGroupField, IEnumerable selectedValues, IEnumerable disabledValues, IEnumerable disabledGroups)
+  
+FATAL 2015-05-14 12:03:25,321  4826ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\LastRemote\COMP4900\IDFWebApp\Views\EventClass\Create.cshtml(167): error CS1928: 'System.Web.Mvc.HtmlHelper<IDFWebApp.Models.Custom.eventclass>' does not contain a definition for 'DropDownList' and the best extension method overload 'System.Web.Mvc.Html.SelectExtensions.DropDownList(System.Web.Mvc.HtmlHelper, string, System.Collections.Generic.IEnumerable<System.Web.Mvc.SelectListItem>, object)' has some invalid arguments
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-14 12:10:14,315  6730ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\LastRemote\COMP4900\IDFWebApp\Views\EventClass\Create.cshtml(176): error CS0839: Argument missing
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-14 12:11:29,749 82164ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\LastRemote\COMP4900\IDFWebApp\Views\EventClass\Create.cshtml(176): error CS0839: Argument missing
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-14 13:16:17,547 95870ms ErrorController        HttpError          - Error System.InvalidOperationException: There is no ViewData item of type 'IEnumerable<SelectListItem>' that has the key 'RaceClassID'.
+   at System.Web.Mvc.Html.SelectExtensions.GetSelectData(HtmlHelper htmlHelper, String name)
+  
+FATAL 2015-05-14 13:49:26,003 54361ms ErrorController        HttpError          - Error System.Web.HttpCompileException (0x80004005): r:\workspace_bcit\4900\LastRemote\COMP4900\IDFWebApp\Views\EventClass\Edit.cshtml(39): error CS0136: A local variable named 'Model' cannot be declared in this scope because it would give a different meaning to 'Model', which is already used in a 'parent or current' scope to denote something else
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+  
+FATAL 2015-05-14 14:49:49,517 92265ms ErrorController        HttpError          - Error System.InvalidOperationException: The ViewData item that has the key 'RaceClassID' is of type 'System.Int32' but must be of type 'IEnumerable<SelectListItem>'.
+   at System.Web.Mvc.Html.SelectExtensions.GetSelectData(HtmlHelper htmlHelper, String name)
+
+FATAL 2015-05-14 13:56:50,837 416895ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'Create' was not found on controller 'IDFWebApp.Controllers.AccountController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-14 13:57:14,138 440196ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'Create' was not found on controller 'IDFWebApp.Controllers.AccountController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-14 14:07:44,356 1070414ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'PersonSelect' was not found on controller 'IDFWebApp.Controllers.AccountController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-14 14:07:48,142 1074200ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'SelectPerson' was not found on controller 'IDFWebApp.Controllers.AccountController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-14 18:36:50,593 113490ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+
+FATAL 2015-05-14 15:46:02,590 61247ms ErrorController        HttpError          - Error System.NullReferenceException: Object reference not set to an instance of an object.
+   at IDFWebApp.Controllers.Custom.PersonController.Find(String query, Int32 CountryID) in r:\workspace_bcit\4900\LastRemote\COMP4900\IDFWebApp\Controllers\Custom\PersonController.cs:line 265
+  
+FATAL 2015-05-14 17:59:37,466 2070677ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'RemoveUserRole' was not found on controller 'IDFWebApp.Controllers.AccountController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-14 18:00:03,190 2096401ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'RemoveUserRole' was not found on controller 'IDFWebApp.Controllers.AccountController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-14 18:00:34,644 2127855ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): A public action method 'CreatePerson' was not found on controller 'IDFWebApp.Controllers.Custom.AdminController'.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+  
+FATAL 2015-05-14 18:03:54,259 2327470ms ErrorController        HttpError          - Error System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+  
+FATAL 2015-05-14 18:26:10,704  1942ms ErrorController        HttpError          - Error System.ArgumentException: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.ActionResult SetUserRole(Int32, Int32)' in 'IDFWebApp.Controllers.Custom.AdminController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+  
+FATAL 2015-05-15 10:39:52,016 27537ms ErrorController        HttpError          - Error System.Web.HttpException (0x80004005): The controller for path '/Organization/Create' was not found or does not implement IController.
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+  
+FATAL 2015-05-15 10:51:13,736 17442ms ErrorController        HttpError          - Error System.InvalidOperationException: The view 'Index' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/JoinOrganization/Index.aspx
+~/Views/JoinOrganization/Index.ascx
+~/Views/Shared/Index.aspx
+~/Views/Shared/Index.ascx
+~/Views/JoinOrganization/Index.cshtml
+~/Views/JoinOrganization/Index.vbhtml
+~/Views/Shared/Index.cshtml
+~/Views/Shared/Index.vbhtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+  
+FATAL 2015-05-15 11:59:46,130 11736ms ErrorController        HttpError          - Error System.Data.Entity.Core.ProviderIncompatibleException: An error occurred accessing the database. This usually means that the connection to the database failed. Check that the connection string is correct and that the appropriate DbContext constructor is being used to specify it or find it in the application's config file. See http://go.microsoft.com/fwlink/?LinkId=386386 for information on DbContext and connections. See the inner exception for details of the failure. ---> System.Data.Entity.Core.ProviderIncompatibleException: The provider did not return a ProviderManifestToken string. ---> MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts.
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+  
+FATAL 2015-05-15 12:01:33,155  4300ms ErrorController        HttpError          - Error System.Data.Entity.Core.ProviderIncompatibleException: An error occurred accessing the database. This usually means that the connection to the database failed. Check that the connection string is correct and that the appropriate DbContext constructor is being used to specify it or find it in the application's config file. See http://go.microsoft.com/fwlink/?LinkId=386386 for information on DbContext and connections. See the inner exception for details of the failure. ---> System.Data.Entity.Core.ProviderIncompatibleException: The provider did not return a ProviderManifestToken string. ---> MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts.
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+  
+FATAL 2015-05-15 12:02:46,515  4235ms ErrorController        HttpError          - Error System.Data.Entity.Core.ProviderIncompatibleException: An error occurred accessing the database. This usually means that the connection to the database failed. Check that the connection string is correct and that the appropriate DbContext constructor is being used to specify it or find it in the application's config file. See http://go.microsoft.com/fwlink/?LinkId=386386 for information on DbContext and connections. See the inner exception for details of the failure. ---> System.Data.Entity.Core.ProviderIncompatibleException: The provider did not return a ProviderManifestToken string. ---> MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts.
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+  

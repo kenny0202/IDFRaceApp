@@ -1,0 +1,6 @@
+﻿
+enable-migrations -ContextTypeName ApplicationDbContext -MigrationsDirectory Migrations\IdentityMigrations
+
+add-migration -ConfigurationTypeName IDFWebApp.Migrations.IdentityMigrations.Configuration "InitialCreateIdentity"
+
+update-database -ConfigurationTypeName IDFWebApp.Migrations.IdentityMigrations.Configuration

@@ -1,0 +1,44 @@
+﻿@model IEnumerable<IDFWebApp.Models.Custom.person>
+
+@section scripts {
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/Scripts/Custom/FindPerson.js"></script>
+}
+<h2>Find</h2>
+
+
+@using (Ajax.BeginForm("Find", "Person",
+    new AjaxOptions
+    {
+        InsertionMode = InsertionMode.Replace,
+        HttpMethod = "GET",
+        UpdateTargetId = "personTable",
+        OnFailure = "searchFailed"
+    },
+    htmlAttributes: new { @class = "form-horizontal" }))
+{    
+    <div class="form-group">
+        <label for="searchBox" class="col-sm-2 control-label">Search</label>
+        <div class="col-sm-10">
+            <input id="searchBox" type="text" name="query" />
+            <span id="helpBlock" class="help-block">Search by first name and last name or email.</span>
+        </div>
+    </div>
+    
+    <div class="form-group">
+        <label for="CountryID" class="col-sm-2 control-label">Nationality</label>
+        <div class="col-sm-10">
+            @Html.DropDownList("CountryID", ViewBag.Country as SelectList, String.Empty, new { htmlAttributes = new { @class = "form-control" } })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <input type="submit" value="search" class="btn btn-default" />
+        </div>
+    </div>
+}
+<br />
+<div id="searchError" class="bg-danger"></div>
+<div id="personTable">
+</div>

@@ -1,0 +1,228 @@
+﻿@model IDFWebApp.Models.Custom.eventclass
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@*
+    @if (Session["UserPreference"] != null)
+    {
+
+    Dictionary<string, string>
+        pref = Session["UserPreference"] as Dictionary<string, string>;
+
+            string value;
+            var bqm = 0;
+            var rc = 0;
+
+            if (pref.ContainsKey("BuildQualificationMethod"))
+            {
+            value = pref["BuildQualificationMethod"];
+            bqm = Int32.Parse(value);
+            }
+
+            if (pref.ContainsKey("RaceClassID"))
+            {
+            value = pref["RaceClassID"];
+            rc = Int32.Parse(value);
+            }
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $('#BuildQualificationMethodID').val(@bqm).change();
+                    $('#RaceClassID').val(@rc).change();
+                });
+            </script>
+            }
+
+*@
+
+
+<h2>Create</h2>
+@{
+    if (TempData["ErrorMsg"] != null)
+    {
+        <div class="bg-danger">
+            <p>@TempData["ErrorMsg"]</p>
+        </div>
+    }
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Create Class for event: @Session["RaceEventName"]</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        @Html.Hidden("RaceEventID", Session["id"])
+
+        <div class="form-group">
+            @Html.Label("Racers Per Heat", htmlAttributes: new { @class = "control-label col-md-2" })
+
+            <div class="col-md-10">              
+                @Html.ValidationMessageFor(model => model.RacersPerHeat, "", new { @class = "text-danger" })<br />
+
+                @Html.Label("4")
+                @Html.RadioButtonFor(model => model.RacersPerHeat, 4, new { @id = "opt1" })
+
+                @Html.Label("6")
+                @Html.RadioButtonFor(model => model.RacersPerHeat, 6, new { @id = "opt2" })
+
+
+                @Html.ValidationMessageFor(Model => Model.RacersPerClass, "", new { @class = "text-danger" })
+
+                <div id="classesPerHeat1">
+                    @Html.Label("Racers per Class")
+
+                    @Html.Label("8")
+                    @Html.RadioButtonFor(Model => Model.RacersPerClass, 8)
+
+                    @Html.Label("16")
+                    @Html.RadioButtonFor(Model => Model.RacersPerClass, 16)
+
+                    @Html.Label("32")
+                    @Html.RadioButtonFor(Model => Model.RacersPerClass, 32)
+
+                    @Html.Label("64")
+                    @Html.RadioButtonFor(Model => Model.RacersPerClass, 64)
+                </div>
+                <div id="classesPerHeat2">
+                    @Html.Label("Racers per Class")
+
+                    @Html.Label("12")
+                    @Html.RadioButtonFor(Model => Model.RacersPerClass, 12)
+
+                    @Html.Label("24")
+                    @Html.RadioButtonFor(Model => Model.RacersPerClass, 24)
+
+                    @Html.Label("48")
+                    @Html.RadioButtonFor(Model => Model.RacersPerClass, 48)
+
+                    @Html.Label("96")
+                    @Html.RadioButtonFor(Model => Model.RacersPerClass, 96)
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+
+            @Html.Label("Repechage Places", htmlAttributes: new { @class = "control-label col-md-2" })
+
+            <div class="col-md-10">
+                @Html.ValidationMessageFor(model => model.RepechagePlaces, "", new { @class = "text-danger" })
+
+                @Html.Label("0")
+                @Html.RadioButtonFor(model => model.RepechagePlaces, 0, new { @id = "repZero" })
+
+                @Html.Label("4")
+                @Html.RadioButtonFor(model => model.RepechagePlaces, 4, new { @id = "repFour" })
+
+                @Html.Label("6")
+                @Html.RadioButtonFor(model => model.RepechagePlaces, 6, new { @id = "repSix" })
+                
+                @Html.ValidationMessageFor(Model => Model.RepechageQualifiers, "", new { @class = "text-danger" })
+
+                <div id="qualifierZero">
+                    @Html.Label("Repechage Qualifiers")
+
+                    @Html.Label("0")
+                    @Html.RadioButtonFor(Model => Model.RepechageQualifiers, 0)
+                </div>
+                <div id="qualifierFour">
+                    @Html.Label("Repechage Qualifiers")
+
+                    @Html.Label("0")
+                    @Html.RadioButtonFor(Model => Model.RepechageQualifiers, 0)
+
+                    @Html.Label("8")
+                    @Html.RadioButtonFor(Model => Model.RepechageQualifiers, 8)
+
+                    @Html.Label("16")
+                    @Html.RadioButtonFor(Model => Model.RepechageQualifiers, 16)
+
+                    @Html.Label("32")
+                    @Html.RadioButtonFor(Model => Model.RepechageQualifiers, 32)
+
+                    @Html.Label("64")
+                    @Html.RadioButtonFor(Model => Model.RepechageQualifiers, 64)
+                </div>
+                <div id="qualifierSix">
+                    @Html.Label("Repechage Qualifiers")
+
+
+                    @Html.Label("0")
+                    @Html.RadioButtonFor(Model => Model.RepechageQualifiers, 0)
+
+                    @Html.Label("12")
+                    @Html.RadioButtonFor(Model => Model.RepechageQualifiers, 12)
+
+                    @Html.Label("24")
+                    @Html.RadioButtonFor(Model => Model.RepechageQualifiers, 24)
+
+                    @Html.Label("48")
+                    @Html.RadioButtonFor(Model => Model.RepechageQualifiers, 48)
+
+                    @Html.Label("96")
+                    @Html.RadioButtonFor(Model => Model.RepechageQualifiers, 96)
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.RaceClassID, "RaceClassID", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("RaceClassID", ViewBag.RaceClass as SelectList, String.Empty, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.RaceClassID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.BuildQualificationMethodID, "Build Qualification MethodID", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("BuildQualificationMethodID", ViewBag.BuildQualificationMethod as SelectList, String.Empty, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.BuildQualificationMethodID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.BuildBracketMethodID, "Build BracketMethod ID", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("BuildBracketMethodID", ViewBag.BuildBracketMethod as SelectList, String.Empty, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.BuildBracketMethodID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.PrimaryClassCost, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.PrimaryClassCost, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.PrimaryClassCost, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SecondaryClassCost, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SecondaryClassCost, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.SecondaryClassCost, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create Class For Event" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Go Back", "Details", "RaceEvent", new { id = Convert.ToInt32(Session["id"]) }, null)
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="~/Scripts/Custom/CreateRaceClass.js"></script>
+}

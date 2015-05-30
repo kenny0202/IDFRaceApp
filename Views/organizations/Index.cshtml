@@ -1,0 +1,70 @@
+﻿@model IEnumerable<IDFWebApp.Models.Custom.organization>
+
+@section styles{
+    <link href="~/Content/CSS/Organization.css" rel="stylesheet" />
+}
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Organizations</h2>
+
+@{
+    if (TempData["Error"] != null)
+    {
+        <div class="bg-danger padding-one">
+            <p>@TempData["Error"]</p>
+        </div>
+    }
+}
+
+@if (User.IsInRole("SuperUser"))
+{
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Sequence)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th id="orgDescription">
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            Org. Type
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sequence)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.organizationtype.Name)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.OrganizationID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.OrganizationID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.OrganizationID })
+            </td>
+        </tr>
+    }
+
+</table>

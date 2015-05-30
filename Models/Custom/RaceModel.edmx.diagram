@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="686be7aa66ac4466b3924dc18d5f1ad4" Name="Diagram1" ZoomLevel="55">
+        <EntityTypeShape EntityType="RaceModel.account" Width="1.5" PointX="5.25" PointY="44.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.accounttype" Width="1.5" PointX="3" PointY="49.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.bracket" Width="1.5" PointX="20.25" PointY="57.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.bracketlink" Width="1.5" PointX="22.5" PointY="57.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.brackettemplate" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.buildbracketmethod" Width="1.5" PointX="15.75" PointY="59.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.buildqualificationmethod" Width="1.5" PointX="15.75" PointY="68.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.buildrankingmethod" Width="1.5" PointX="5.25" PointY="67.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.calendarevent" Width="1.5" PointX="8.25" PointY="43.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.calendareventtype" Width="1.5" PointX="6" PointY="24.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.classregionranking" Width="1.5" PointX="7.5" PointY="71.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.commenttype" Width="1.5" PointX="11.25" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.competitoreventclassbracket" Width="1.5" PointX="25.5" PointY="57.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.contact" Width="1.5" PointX="13.5" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.continent" Width="1.5" PointX="3.75" PointY="33.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.control" Width="1.5" PointX="3" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.controldbfield" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.controltype" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.country" Width="1.5" PointX="6" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.currency" Width="1.5" PointX="3" PointY="39.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.dbfield" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.dbfieldtype" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.dbtable" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.eventclass" Width="1.5" PointX="18" PointY="57.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.eventclasslink" Width="1.5" PointX="20.25" PointY="61.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.eventlevel" Width="1.5" PointX="7.5" PointY="51.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.eventorganization" Width="1.5" PointX="15" PointY="46.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.form" Width="1.5" PointX="0.75" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.identitykey" Width="1.5" PointX="10.5" PointY="33.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.messageitem" Width="1.5" PointX="14.25" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.messagesubscription" Width="1.5" PointX="10.5" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.messagetype" Width="1.5" PointX="8.25" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.organization" Width="1.5" PointX="3" PointY="43.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.organizationroletype" Width="1.5" PointX="5.25" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.organizationtype" Width="1.5" PointX="0.75" PointY="44.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.person" Width="1.5" PointX="8.25" PointY="32.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.personcomment" Width="1.5" PointX="13.5" PointY="28.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.personevent" Width="1.5" PointX="16" PointY="41.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.personeventclass" Width="1.5" PointX="21.25" PointY="47.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.personmessage" Width="1.5" PointX="16.5" PointY="33.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.personorganizationrole" Width="1.5" PointX="10.5" PointY="38.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.personproduct" Width="1.5" PointX="13.5" PointY="39.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.personranking" Width="1.5" PointX="12.75" PointY="55.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.placepoint" Width="1.5" PointX="7.5" PointY="60.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.placepointmatrix" Width="1.5" PointX="5.25" PointY="60.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.preference" Width="1.5" PointX="5.25" PointY="48.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.prizeaward" Width="1.5" PointX="24.25" PointY="51.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.product" Width="1.5" PointX="8.25" PointY="39.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.producttype" Width="1.5" PointX="6" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.qualificationbracket" Width="1.5" PointX="18.25" PointY="52.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.qualificationclass" Width="1.5" PointX="23.25" PointY="62" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.qualificationgroup" Width="1.5" PointX="15" PointY="64" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.qualificationrun" Width="1.5" PointX="21.25" PointY="52.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.raceclass" Width="1.5" PointX="5.25" PointY="71.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.raceevent" Width="1.5" PointX="12.75" PointY="45.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.raceeventregion" Width="1.5" PointX="15" PointY="50.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.racelevelranking" Width="1.5" PointX="9.75" PointY="62.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.raceranking" Width="1.5" PointX="15" PointY="55.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.racetitleranking" Width="1.5" PointX="9.75" PointY="76.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.region" Width="1.5" PointX="10.25" PointY="49.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RaceModel.sysdiagram" Width="1.5" PointX="4.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="RaceModel.FK_Account_AccountType" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Account_Currency" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Account_Organization" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Bracket_EventClass" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_BracketLink_Bracket" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_BracketLink_Bracket1" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_CompetitorEventHeat_Heat" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_EventClass_BuildBracketMethod" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_EventClass_BuildQualificationMethod" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_ClassRegionRanking_BuildRankingMethod" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_CalendarEvent_CalendarEventType" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_CalendarEvent_EventClass" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_CalendarEvent_Organization" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_CalendarEvent_RaceEvent" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_ClassRegionRanking_RaceClass" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_ClassRegionRanking_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_PersonRanking_ClassRegionRanking" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_RaceLevelRanking_ClassRegionRanking" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_RaceTitleRanking_ClassRegionRanking" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_PersonComment_CommentType" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_CompetitorEventClassBracket_CompetitorEventClass" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Contact_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Contact_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Country_Continent" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Region_Continent" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Control_ControlType" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Control_Form" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_ControlDbField_Control" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_ControlDbField_DbField" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Person_Country1" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_RaceEvent_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Event_Currency" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_OrganizationRoleType_Currency" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_DbField_DbFieldType" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_DbField_DbTable" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_ClassEvent_Class" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_ClassEvent_Event" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_CompetitorEventClass_EventClass" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_EventClassLink_EventClass" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_EventClassLink_EventClass1" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_PrizeMoney_EventClass" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_QualificationClass_EventClass" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Event_EventLevel" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_EventLevel_Organization" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_EventLevel_PlacePoints" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_RaceLevelRanking_EventLevel" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_EventOrganization_Event1" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_EventOrganization_Organization" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Identity_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Message_MessageType" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_PersonMessage_Message" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_MessageSubscription_MessageType" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_MessageSubscription_Person1" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Class_Organization" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Event_Organization1" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Organization_OrganizationType" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_OrganizationRoleType_Organization" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_PlacePoints_Organization" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Preference_Organization" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_PrizeAward_Organization" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Product_Organization" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Region_Organization" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_PersonOrganizationRole_OrganizationRoleType" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_PersonComment_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_PersonMessage_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_PersonOrganizationRoleType_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_PersonProduct_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Preference_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_CompetitorEventClass_PersonEvent" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_PersonEvent_Event" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_PersonEvent_PersonOrganizationRole" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_QualificationBracket_PersonEvent" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_QualificationRun_PersonEvent" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_PersonRanking_PersonOrganizationRole" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_PersonProduct_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_RaceRanking_PersonRanking" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Points_PlacePoints" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_Product_ProductType" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_QualificationBracket_QualificationGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_QualificationClass_QualificationGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_QualificationGroup_RaceEvent" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_QualificationRun_QualificationGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_RaceEvetRegion_RaceEvent" ManuallyRouted="false" />
+        <AssociationConnector Association="RaceModel.FK_RaceEvetRegion_Region" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

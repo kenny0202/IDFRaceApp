@@ -1,0 +1,91 @@
+﻿@model IDFWebApp.Models.Custom.raceclass
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>raceclass</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Sequence)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sequence)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CompetitorLevel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CompetitorLevel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MinimumAge)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MinimumAge)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaximumAge)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaximumAge)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.organization.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.organization.Code)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.RaceClassID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

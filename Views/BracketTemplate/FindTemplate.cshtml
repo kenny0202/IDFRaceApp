@@ -1,0 +1,37 @@
+﻿@model IEnumerable<IDFWebApp.Models.Custom.brackettemplate>
+
+@section scripts {
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+}
+<h2>Find</h2>
+
+@using (Ajax.BeginForm("FindTemplate", "BracketTemplate",
+    new AjaxOptions
+    {
+        InsertionMode = InsertionMode.Replace,
+        HttpMethod = "GET",
+        UpdateTargetId = "bracketTable",
+        OnFailure = "searchFailed"
+    },
+    htmlAttributes: new { @class = "form-inline" }))
+{
+     <div class="form-group">
+        @Html.Label("Bracket Pattern")
+         <select name="pattern" id="pattern">
+             <option value="99">Select a pattern</option>
+             <option value="1">64 X 4</option>
+             <option value="2">32 X 4</option>
+             <option value="3">16 X 4</option>
+             <option value="4">8 X 4</option>
+             <option value="5">96 X 6</option>
+             <option value="6">48 X 6</option>
+             <option value="7">24 X 6</option>
+             <option value="8">12 X 6</option>          
+         </select> 
+    </div>
+    <input type="submit" value="search" class="btn btn-default" />
+}
+<br />
+<div id="searchError" class="bg-danger"></div>
+<div id="bracketTable">
+</div>

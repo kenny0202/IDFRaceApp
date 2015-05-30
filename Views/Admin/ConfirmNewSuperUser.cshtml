@@ -1,0 +1,20 @@
+﻿@model IDFWebApp.Models.Custom.person
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Are you sure you want to make user ???? a Super User?</h3>
+<br/>
+@using (Html.BeginForm("SetSuperUser", "Admin"))
+{
+
+    @Html.Hidden("PersonID", (int)Session["UserToAddRole"])
+    
+    @Html.AntiForgeryToken()
+
+    <input type="submit" value="Yes" class="btn btn-default btn-danger "/>
+    
+    @Html.ActionLink("No, go back", "SetUserRole", "Admin", new { id = (int)Session["UserToAddRole"] }, new { @class = "btn btn-default btn-success" })
+}
+

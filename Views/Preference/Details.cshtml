@@ -1,0 +1,75 @@
+﻿@model IDFWebApp.Models.Custom.preference
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+@{
+    if (Session["ErrorMsg"] != null)
+    {
+        <div class="bg-danger">
+            <p>@Session["ErrorMsg"]</p>
+        </div>
+    }
+}
+
+<div>
+    <h4>preference</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Parameters)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Parameters)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Unum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Unum)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UnumSync)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UnumSync)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UnumTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UnumTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.organization.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.organization.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.person.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.person.Email)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PreferenceID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

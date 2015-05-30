@@ -1,0 +1,77 @@
+﻿@model IEnumerable<IDFWebApp.Models.Custom.eventclass>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Event Classes</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<div class="table-responsive">
+    <table class="table">
+        <tr>
+                      
+            <th>
+               Race Event
+            </th>
+            <th>
+                Race Class
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.raceevent.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RacersPerHeat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RacersPerClass)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RepechagePlaces)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RepechageQualifiers)
+            </th>
+           
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                               
+                <td>
+                    @Html.DisplayFor(modelItem => item.raceevent.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.raceclass.Name)
+                </td> 
+                <td>
+                    @Html.DisplayFor(modelItem => item.raceevent.City)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RacersPerHeat)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RacersPerClass)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RepechagePlaces)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RepechageQualifiers)
+                </td>
+               
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.EventClassID }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.EventClassID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.EventClassID })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

@@ -1,0 +1,100 @@
+﻿@model IDFWebApp.Models.Custom.person
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+@{
+    if (TempData["Sucess"] != null)
+    {
+        <div id="searchError" class="bg-info padding-one">
+            <p>@TempData["Sucess"]</p>
+        </div>
+    }
+}
+
+@{
+    if (TempData["ErrorMsg"] != null)
+    {
+        <div id="searchError" class="bg-info padding-one">
+            <p>@TempData["ErrorMsg"]</p>
+        </div>
+    }
+}
+
+<div>
+    <h4>Your details are listed below.</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NickName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NickName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BirthDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BirthDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+
+        <dt>
+            Country
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.country.Name)
+        </dd>
+
+    </dl>
+</div>
+@{
+    if (User.IsInRole("Admin") || User.IsInRole("SuperUser"))
+    {
+        <p>@Html.ActionLink("Assign Roles", "SetUserRole", "Admin", new { id = Model.PersonID }, null)</p>
+        <p>@Html.ActionLink("Remove Roles", "RemoveUserRole", "Admin", new { id = Model.PersonID }, null)</p>
+
+    }
+
+}
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PersonID }) |
+    @Html.ActionLink("Go back", "Index", "Home")
+</p>

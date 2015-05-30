@@ -1,0 +1,87 @@
+﻿@model IEnumerable<IDFWebApp.Models.Custom.personorganizationrole>
+
+@{
+    ViewBag.Title = "Index UNDER CONSTRUCTION";
+}
+
+<h2>Index UNDER CONSTRUCTION</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CompetitorLevel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MemberNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AnnualDuesPaid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ExpiryDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AccountNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TransactionNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AutoRenewSubscription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PriorityStatus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.organizationroletype.Code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.person.Email)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CompetitorLevel)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MemberNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AnnualDuesPaid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExpiryDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AccountNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TransactionNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AutoRenewSubscription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PriorityStatus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.organizationroletype.Code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.person.Email)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.PersonOrganizationRoleID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.PersonOrganizationRoleID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.PersonOrganizationRoleID })
+        </td>
+    </tr>
+}
+
+</table>

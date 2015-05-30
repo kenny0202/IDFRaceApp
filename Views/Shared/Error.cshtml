@@ -1,0 +1,11 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+<h2 class="text-danger">@(ViewData["Title"])</h2>
+
+<br />
+@(ViewData["Description"])
+@Html.Raw(ViewData["DbException"])
+@Html.Raw(ViewData["ExceptionMessage"])
+@Html.Raw(ViewData["InnerException"])
+@Html.Raw(ViewData["BaseException"])
+
